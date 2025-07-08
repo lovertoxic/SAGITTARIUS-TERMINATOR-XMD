@@ -92,7 +92,7 @@ ezra(
 ezra(
   {
     nomCom: "getvar",
-    categorie: "toxic-Heroku",
+    categorie: "sir bravin-Heroku",
     reaction: "🔍",
   },
   async (dest, zk, commandeOptions) => {
@@ -128,7 +128,7 @@ ezra(
 
     } catch (error) {
       console.error('getvar error:', error);
-      await repondre(`LUCKY-MD-XFORXE\nTOTAL FAILURE! Error: ${error.message} 😡 Fix this mess!`);
+      await repondre(`TOXIC-LOVER-V2-XMD\nTOTAL FAILURE! Error: ${error.message} 😡 Fix this mess!`);
     }
   }
 );
