@@ -1,9 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=TOXIC%20LOVER-V2-XMD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=BEST+WHATSAPP+BOT;DEVELOPED+BY;TOXIC+LOVER+CYBER+TECH;SUPPORT;KENYA+ELDORET;19YEARS+OLD+BOY;LUYHA+FINEST;REMEMBER+TO;FORK+&+STAR+THE+REPO;FOLLOW+DE+CHANNEL"alt="Animated Typing SVG" />
-</p>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=REMEMBER+TO;STAR+AND;FORK;TOXIC;LOVER-V2;-XMD;REPO" alt="Typing SVG" /></a>
+  </p>
+```
 
 <div align="center">
   <a href="https://github.com/toxiclover-tech"/followers"><img title="Followers" src="https://img.shields.io/github/followers/toxiclover-tech?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
