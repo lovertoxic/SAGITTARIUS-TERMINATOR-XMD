@@ -6,10 +6,10 @@
 ```
 
 <div align="center">
-  <a href="https://github.com/toxiclover-tech"/followers"><img title="Followers" src="https://img.shields.io/github/followers/toxiclover-tech?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD "/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/toxiclover-tech/TOXIC-LOVER-MD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
-  <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/toxiclover-tech/TOXIC-LOVER-TECG?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
-  <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/toxiclover-tech/TOXIC-LOVER-MD?style=for-the-badge&color=FFFF33&logo=docusign&logoColor=white"></a>
+  <a href="https://github.com/lovertoxic"/followers"><img title="Followers" src="https://img.shields.io/github/followers/lovertoxic?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD"/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/lovertoxic/TOXIC-LOVER-V2-XMD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
+  <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/lovertoxic/TOXIC-LOVER-V2-XMD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/lovertoxic/TOXIC-LOVER-V2-XMD?style=for-the-badge&color=FFFF33&logo=docusign&logoColor=white"></a>
   <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
