@@ -5,8 +5,8 @@ const s = require(__dirname + "/../set");
 
 ezra(
     {
-        nomCom : 'live-me',
-        categorie : 'General'
+        nomCom : 'live-sir bravine',
+        categorie : 'General sir bravine'
         
     },async (dest,zk,commandeOptions) => {
 
@@ -39,14 +39,14 @@ const date = moment().format('DD/MM/YYYY');
 *Mode* : ${mode}
 *Date* : ${date}
 *Hours(GMT)* : ${temps}
-*From* : Tanzania
+*From* : nairobi
 *Bot* : ${s.bot} 
 *Forks* : ${forks} 
 
  ${message}
  
  
- *LUCKY MD 2025*`
+ *TOXIC LOVER-V2 XMD 2025*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -74,7 +74,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("Hello Fahm JEEPERS CREEPER-XMD Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
+        if(!superUser) { repondre("Hello Fahm TOXIC LOVER-V2 XMD Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
          repondre("don't do fake thinks :)")
@@ -91,7 +91,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('JEEPERES CREEPER-XMD Is A Live 24hrs Enjoy To Use All Time🤗. ')
+repondre('TOXIC LOVER-V2-XMD Is A Live 24hrs Enjoy To Use All Time🤗. ')
 
 }
     });
