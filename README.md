@@ -10,11 +10,11 @@
   <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD"/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/lovertoxic/TOXIC-LOVER-V2-XMD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
   <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/lovertoxic/TOXIC-LOVER-V2-XMD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
   <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/lovertoxic/TOXIC-LOVER-V2-XMD?style=for-the-badge&color=FFFF33&logo=docusign&logoColor=white"></a>
-  <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
+  <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD /graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TOXIC-LOVER-MD&label=VISITORS&style=flat-square&color=0002FF" />
+  <img src="https://komarev.com/ghpvc/?usernamer=toxiclover/TOXIC-LOVER-V2-XMD&label=VISITORS&style=flat-square&color=0002FF" />
 </p>
 
  <p align="center">
