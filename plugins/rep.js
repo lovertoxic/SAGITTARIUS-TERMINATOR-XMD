@@ -8,7 +8,7 @@ moment.tz.setDefault('' + set.TIMEZONE);
 
 ezra({
   'nomCom': "ping",
-  'categorie': "General-Fredi"
+  'categorie': "General-sir bravin"
 }, async (_0x12a838, _0x2d8d4e, _0x1f0ba4) => {
   let {
     ms: _0x5d2f0c
@@ -61,7 +61,7 @@ ezra({
   nomFichier: __filename
 }, async (dest, zk, commandeOptions) => {
   const { pushname, repondre } = commandeOptions;
-  const githubRepo = 'https://api.github.com/repos/mr-X-force/LUCKY-MD-XFORCE';
+  const githubRepo = 'https://api.github.com/repos/lovertoxic/TOXIC-LOVER-V2-XMD';
 
   try {
     const response = await axios.get(githubRepo);
@@ -88,7 +88,7 @@ ezra({
           body: "🫦 repo link request 🫦",
           thumbnailUrl: "https://files.catbox.moe/jwoyly.jpg",
           mediaType: 1,
-          sourceUrl: data.html_url || "https://github.com/mr-X-force/LUCKY-MD-XFORCE"
+          sourceUrl: data.html_url || "https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD"
         }
       }
     });
