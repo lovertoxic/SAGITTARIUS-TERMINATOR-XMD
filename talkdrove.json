@@ -1,11 +1,11 @@
 
 {
-    "bot-name": "NEXUS-XMD_BOT",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr Pkdriller",
-    "logo": "https://files.catbox.moe/z62ts0.jpg",
+    "bot-name": "TOXIC LOVER-V2 XMD",
+    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr sir bravin",
+    "logo": "https://files.catbox.moe/m4zhif.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://nexus-xmd-pair-site-am98.onrender.com/",
-    "owner-verification": "pkdriller08@gmail.com",  
+    "owner-verification": "sir bravin",  
     "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with nexus~  or get session id from here,  https://nexus-xmd-pair-site-am98.onrender.com/",
@@ -65,12 +65,12 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254794146821"
+      "value": "254717263689"
    }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "NEXUS-XMD"
+      "value": "TOXIC LOVER-V2 XMD"
    }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
