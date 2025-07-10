@@ -1,4 +1,4 @@
-// Obed TechX - HUNTER-XMD 
+// sir bravin - TOXIC LOVER-V2 XMD
 // Dont Remove Credit From File 
 
 const { cmd } = require("../command");
