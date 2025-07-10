@@ -1,0 +1,16 @@
+{
+  "name": "TOXIC LOVER-V2 XMD",
+  "description": "For deploying TOXIC LOVER-V2 XMD.",
+  "repository": "https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}
