@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("HUNTER-XMD~", '');
+const sessdata = config.SESSION_ID.replace("TOXIC LOVER-V2 XMD", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -112,23 +112,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ 𝙷𝙴𝙻𝙻𝙾𝚆 𝙷𝚄𝙽𝚃𝙴𝚁 𝚇𝙼𝙳.𝟻 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
+  let up = `*✨ TOXIC LOVER-V2 XMD! ✨*
 
-╭─〔 *💻 𝙃𝙐𝙉𝙏𝙀𝙍 𝙓𝙈𝘿.5 𝘽𝙊𝙏* 〕  
-├─▸ *Simplicity. Speed. Power. BY ᴏʙᴇᴅᴛᴇᴄʜ |*  
+╭─〔 *💻 TOXIC LOVER-V2 XMD* 〕  
+├─▸ *Simplicity. Speed. Power. BY sir bravin|*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing 𝐇𝐔𝐍𝐓𝐄𝐑 𝐗𝐌𝐃.𝟓!*
+*❤️ Thank you for Choosing TOXIC LOVER-V2 XMD*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Obedweb/HUNTER XMD)!  
+│   Star Us [**Here**](https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙾𝙱𝙴𝙳𝚃𝙴𝙲𝙷 _`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/mw1loa.jpg` }, caption: up })
+> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 sir bravin _`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/jo7ggr.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254794146821', '25799056874', '254785392165');
+    const jawad = ('254717263689', '25759340834', '254724908167');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254701082940")){
+  if(senderNumber.includes("25717263689")){
   if(isReact) return
   m.react("🤍")
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send(" 𝑯𝑼𝑵𝑻𝑬𝑹 𝑿𝑴𝑫.5 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 ✅");
+  res.send(" @sir bravin  ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
