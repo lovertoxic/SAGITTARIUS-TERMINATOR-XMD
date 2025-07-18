@@ -5,7 +5,7 @@ const { translate } = require("@vitalets/google-translate-api");
 cmd({
   pattern: "wikipedia",
   alias: ["wiki"],
-  react: "📖",
+  react: "💎",
   desc: "Fetch Wikipedia information and translate to English.",
   category: "information",
   filename: __filename
