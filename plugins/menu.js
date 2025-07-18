@@ -7,38 +7,38 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "⚡",
+    react: "🔥",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
         // Show loading reaction
         await conn.sendMessage(from, {
-            react: { text: '⏳', key: mek.key }
+            react: { text: '🔥', key: mek.key }
         });
 
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃♦️╭──────────────
-┃♦️│  *Owner :* ${config.OWNER_NAME}
-┃♦️│  *Baileys :* Multi Device
-┃♦️│  *Type :* NodeJs
-┃♦️│  *Platform :* vercel
-┃♦️│  *Mode :* [${config.MODE}]
-┃♦️│  *Prefix :* [${config.PREFIX}]
-┃♦️│  *Version :* 5.0.0 max
-┃♦️╰──────────────
+┃💝╭──────────────
+┃💘│  *Owner :* ${config.OWNER_NAME}
+┃💝│  *Baileys :* Multi Device
+┃💘│  *Type :* NodeJs
+┃💝│  *Platform :* vercel
+┃💘│  *Mode :* [${config.MODE}]
+┃💝│  *Prefix :* [${config.PREFIX}]
+┃💘│  *Version :* 5.0.0 max
+┃💝╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
-┃♦️╭─────────────·๏
-┃♦️│1️⃣   *Download Menu*
-┃♦️│2️⃣   *Group Menu*
-┃♦️│3️⃣   *Fun Menu*
-┃♦️│4️⃣   *Owner Menu*
-┃♦️│5️⃣   *AI Menu*
-┃♦️│6️⃣   *Anime Menu*
-┃♦️│7️⃣   *Convert Menu*
-┃♦️│8️⃣   *Other Menu*
-┃♦️│9️⃣   *Reactions Menu*
-┃♦️│🔟   *Main Menu*
+┃💘╭─────────────·๏
+┃💝│1️⃣   *Download Menu*
+┃💘│2️⃣   *Group Menu*
+┃💝│3️⃣   *Fun Menu*
+┃❤️‍🔥│4️⃣   *Owner Menu*
+┃💝│5️⃣   *AI Menu*
+┃💓│6️⃣   *Anime Menu*
+┃💝│7️⃣   *Convert Menu*
+┃💘│8️⃣   *Other Menu*
+┃🌹│9️⃣   *Reactions Menu*
+┃💓│🔟   *Main Menu*
 ┃◈╰───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -48,7 +48,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363416335506023@newsletter',
+                newsletterJid: '120363366284524544@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -57,7 +57,7 @@ cmd({
         const sentMsg = await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/gnli0k.jpg' },
                 caption: menuCaption,
                 contextInfo: contextInfo
             },
@@ -375,7 +375,7 @@ cmd({
                     await conn.sendMessage(
                         senderID,
                         {
-                            image: { url: config.MENU_IMAGE_URL || 'https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg' },
+                            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/gnli0k.jpg' },
                             caption: selectedMenu.content,
                             contextInfo: contextInfo
                         },
