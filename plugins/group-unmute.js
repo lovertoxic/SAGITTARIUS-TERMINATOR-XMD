@@ -5,7 +5,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 cmd({
     pattern: "unmute",
     alias: ["groupunmute"],
-    react: "🔊",
+    react: ",💄",
     desc: "Unmute the group (Everyone can send messages).",
     category: "group",
     filename: __filename
