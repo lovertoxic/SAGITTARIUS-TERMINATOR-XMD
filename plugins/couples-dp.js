@@ -4,7 +4,7 @@ const axios = require('axios');
 cmd({
   'pattern': "couplepp",
   'alias': ["couple", "cpp"],
-  'react': '💑',
+  'react': '⚠️',
   'desc': "Get a male and female couple profile picture.",
   'category': "image",
   'use': ".couplepp",
