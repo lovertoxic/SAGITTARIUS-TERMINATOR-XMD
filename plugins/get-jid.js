@@ -4,7 +4,7 @@ cmd({
     pattern: "jid",
     alias: ["id", "chatid", "gjid"],  
     desc: "Get full JID of current chat/user (Creator Only)",
-    react: "🆔",
+    react: "⚽",
     category: "utility",
     filename: __filename,
 }, async (conn, mek, m, { 
