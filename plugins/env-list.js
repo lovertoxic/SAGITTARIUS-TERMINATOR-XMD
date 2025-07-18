@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *CRISS-AI* 〕━━━┈⊷
+        let envSettings = `╭━━━〔 *TOXIC LOVER-V2 XMD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -54,8 +54,8 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363417599637828@newsletter',
-                        newsletterName: 'CRISS AI',
+                        newsletterJid: '120363366284524544@newsletter',
+                        newsletterName: 'sir bravin',
                         serverMessageId: 143
                     }
                 }
