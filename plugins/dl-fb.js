@@ -24,7 +24,7 @@ cmd({
 
     // Check if the API response is valid
     if (!data.status || !data.data || !data.data.url) {
-      return reply("❌ Failed to fetch the video. Please try another link.");
+      return reply("🚫 Failed to fetch the video. Please try another link.");
     }
 
     // Send the video to the user
