@@ -61,7 +61,7 @@ async (conn, mek, m, { args, reply }) => {
             return String.fromCharCode(parseInt(bin, 2));
         }).join('');
 
-        reply(`🔓 *Decoded Text:* \n${textDecoded}`);
+        reply(`🦠 *Decoded Text:* \n${textDecoded}`);
     } catch (e) {
         console.error("Error in .binarydecode command:", e);
         reply("❌ An error occurred while decoding the binary string.");
