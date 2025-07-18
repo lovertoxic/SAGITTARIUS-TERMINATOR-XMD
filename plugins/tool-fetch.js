@@ -6,7 +6,7 @@ cmd({
     alias: ["get", "api"],
     desc: "Fetch data from a provided URL or API",
     category: "main",
-    react: "🌐",
+    react: "🍛",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, args, reply }) => {
