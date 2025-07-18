@@ -44,7 +44,7 @@ cmd({
     alias: ["removeban"],
     desc: "Unban a user",
     category: "owner",
-    react: "✅",
+    react: "💰",
     filename: __filename
 }, async (conn, mek, m, { from, args, isCreator, reply }) => {
     try {
