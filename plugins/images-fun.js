@@ -23,7 +23,7 @@ try{
 let res = await axios.get('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon')
 let wm = `😎 Random Garl image
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅ`
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ toxic lover-v2 xmd`
 await conn.sendMessage(from, { image: { url: res.data.data[0].urls.original }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -46,7 +46,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/waifu')
 let wm = `🩵 Random Waifu image
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅ`
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ sir bravin`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -69,7 +69,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/neko')
 let wm = `🩷 Random neko image
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀɪss ᴀɪ`
+©ᴘᴏᴡᴇʀᴇᴅ ʙY sir bravin`
 await conn.sendMessage(from, { image: { url: res.data.url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -92,7 +92,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/megumin')
 let wm = `❤️‍🔥Random megumin image
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅ`
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ toxic lover-v2 xmd`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -138,7 +138,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/awoo')
 let wm = `😎 Random awoo image
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅ`
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ sir bravin`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
