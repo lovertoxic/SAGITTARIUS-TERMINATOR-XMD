@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363416335506023@newsletter',
-                    newsletterName: config.OWNER_NAME || 'ʜᴜɴᴛᴇʀ xᴍᴅ SUPPORT',
+                    newsletterJid: '120363366284524544@newsletter',
+                    newsletterName: config.OWNER_NAME || 'sir bravin SUPPORT',
                     serverMessageId: 143
                 }
             }
