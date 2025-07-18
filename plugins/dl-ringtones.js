@@ -5,7 +5,7 @@ cmd({
     pattern: "ringtone",
     alias: ["ringtones", "ring"],
     desc: "Get a random ringtone from the API.",
-    react: "🎵",
+    react: "🦴",
     category: "fun",
     filename: __filename,
 },
