@@ -303,7 +303,7 @@ async (conn, mek, m, { from, reply }) => {
         }
     } catch (e) {
         console.log(e);
-        reply(`❌ *Error!* ${e.message}`);
+        reply(`💄 *Error!* ${e.message}`);
     }
 });
 
