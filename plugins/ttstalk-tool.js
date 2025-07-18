@@ -6,7 +6,7 @@ cmd({
   alias: ["tstalk", "ttstalk"],
   react: "📱",
   desc: "Fetch TikTok user profile details.",
-  category: "search",
+  category: "sir bravin search",
   filename: __filename
 }, async (conn, m, store, { from, args, q, reply }) => {
   try {
