@@ -5,7 +5,7 @@ const axios = require("axios");
 cmd({
     pattern: "tiny",
     alias: ['short', 'shorturl'],
-    react: "🫧",
+    react: "⚓",
     desc: "Makes URL tiny.",
     category: "convert",
     use: "<url>",
