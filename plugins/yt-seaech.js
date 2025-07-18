@@ -12,7 +12,7 @@ cmd({
     use: '.yts jawad',
     react: "🔎",
     desc: "Search and get details from youtube.",
-    category: "search",
+    category: "sir bravin search",
     filename: __filename
 
 },
