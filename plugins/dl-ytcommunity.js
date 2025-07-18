@@ -6,7 +6,7 @@ cmd({
     alias: ["ytcommunity", "ytc"],
     desc: "Download a YouTube community post",
     category: "downloader",
-    react: "🎥",
+    react: "🤸",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
