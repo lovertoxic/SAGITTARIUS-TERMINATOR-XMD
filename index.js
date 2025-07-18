@@ -112,22 +112,22 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ 𝙷𝙴𝙻𝙻𝙾𝚆 𝙷𝚄𝙽𝚃𝙴𝚁 𝚇𝙼𝙳.𝟻 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
+  let up = `*✨ 𝙷𝙴𝙻𝙻𝙾𝚆 toxic-lover-v2 xmd 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
 
-╭─〔 *💻 𝙃𝙐𝙉𝙏𝙀𝙍 𝙓𝙈𝘿.5 𝘽𝙊𝙏* 〕  
-├─▸ *𝕤𝕚𝕞𝕡𝕝𝕚𝕔𝕚𝕥𝕪. 𝕤𝕡𝕖𝕖𝕕. 𝕡𝕠𝕨𝕖𝕣𝕖𝕕 . 𝕓𝕪 ᴏʙᴇᴅᴛᴇᴄʜ |*  
+╭─〔 *💻 toxic lover v2 xmd* 〕  
+├─▸ *𝕤𝕚𝕞𝕡𝕝𝕚𝕔𝕚𝕥𝕪. 𝕤𝕡𝕖𝕖𝕕. 𝕡𝕠𝕨𝕖𝕣𝕖𝕕 . 𝕓𝕪 sir bravin |*  
 ╰─➤ *𝕐𝕠𝕦𝕣 ℕ𝕖𝕨 𝕎𝕙𝕒𝕥𝕤𝕒𝕡𝕡 𝕤𝕚𝕕𝕖𝕜𝕚𝕔𝕜 𝕚𝕤 𝕙𝕖𝕣𝕖!*
 
-*❤️ 𝕋𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 𝕗𝕠𝕣 𝕔𝕙𝕠𝕠𝕤𝕚𝕟𝕘 𝐇𝐔𝐍𝐓𝐄𝐑 𝐗𝐌𝐃.𝟓!*
+*❤️ 𝕋𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 𝕗𝕠𝕣 𝕔𝕙𝕠𝕠𝕤𝕚𝕟𝕘 toxic lover v2 xmd!*
 
 ╭──〔 🔗 *𝕢𝕦𝕚𝕔𝕜 𝕝𝕚𝕟𝕜𝕤* 〕  
 ├─ 📢 *𝕛𝕠𝕚𝕟 𝕠𝕦𝕣 𝕔𝕙𝕒𝕟𝕟𝕖𝕝:*  
-│   Click [*ℍ𝕖𝕣𝕖*](https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y) to join!  
+│   Click [*ℍ𝕖𝕣𝕖*](https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g) to join!  
 ├─ ⭐ *𝔾𝕚𝕧𝕖 𝕦𝕤 𝕤𝕥𝕒𝕣:*  
-│   𝕊𝕥𝕒𝕣 𝕦𝕤 [*ℍ𝕖𝕣𝕖*](https://github.com/Obedweb/HUNTER XMD)!  
+│   𝕊𝕥𝕒𝕣 𝕦𝕤 [*ℍ𝕖𝕣𝕖*](https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙾𝙱𝙴𝙳𝚃𝙴𝙲𝙷 _`;
+> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 sir bravin _`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/mw1loa.jpg` }, caption: up })
   }
   })
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254794146821', '25799056874', '254785392165');
+    const jawad = ('254717263689', '25759340834', '254724908267');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254701082940")){
+  if(senderNumber.includes("254717263689")){
   if(isReact) return
   m.react("🤍")
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send(" 𝑯𝑼𝑵𝑻𝑬𝑹 𝑿𝑴𝑫.5 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 ✅");
+  res.send(" Toxic lover-V2 xmd 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
