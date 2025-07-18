@@ -7,7 +7,7 @@ cmd({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
     category: "owner",
-    react: "🛑",
+    react: "⚽",
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
