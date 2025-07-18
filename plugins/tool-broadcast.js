@@ -36,6 +36,6 @@ cmd({
     return reply(`✅ Successfully sent broadcast to ${groupIds.length} groups!`);
     
   } catch (err) {
-    await m.error(`❌ Error: ${err}\n\nCommand: broadcast`, err);
+    await m.error(`🚫 Error: ${err}\n\nCommand: broadcast`, err);
   }
 });
