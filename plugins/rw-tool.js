@@ -4,7 +4,7 @@ const axios = require("axios");
 cmd({
   pattern: "rw",
   alias: ["randomwall", "wallpaper"],
-  react: "🌌",
+  react: "🦠",
   desc: "Download random wallpapers based on keywords.",
   category: "wallpapers",
   use: ".rw <keyword>",
@@ -17,7 +17,7 @@ cmd({
     const { data } = await axios.get(apiUrl);
     
     if (data.status && data.imgUrl) {
-      const caption = `🌌 *Random Wallpaper: ${query}*\n\n> *© Powered by ʜᴜɴᴛᴇʀ xᴍᴅ*`;
+      const caption = `🌌 *Random Wallpaper: ${query}*\n\n> *© Powered by sir bravin*`;
       await conn.sendMessage(from, { image: { url: data.imgUrl }, caption }, { quoted: m });
     } else {
       reply(`❌ No wallpaper found for *"${query}"*.`);
