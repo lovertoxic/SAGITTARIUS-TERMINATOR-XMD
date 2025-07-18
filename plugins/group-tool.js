@@ -7,7 +7,7 @@ cmd({
     pattern: "removemembers",
     alias: ["kickall", "endgc", "endgroup"],
     desc: "Remove all non-admin members from the group.",
-    react: "🎉",
+    react: "📌",
     category: "group",
     filename: __filename,
 }, 
