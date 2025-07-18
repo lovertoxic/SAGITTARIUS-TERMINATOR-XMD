@@ -17,7 +17,7 @@ function formatBytes(bytes) {
 cmd({
   pattern: "rmbg",
   alias: ["removebg"],
-  react: '📸',
+  react: '💎',
   desc: "Scan and remove bg from images",
   category: "img_edit",
   use: ".rmbg [reply to image]",
