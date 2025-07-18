@@ -1,12 +1,12 @@
 {
-  "name": "NEXUS-XMD",
-  "version": "4.0.0",
-  "description": "A WhatsApp Bot Created By sir bravin",
+  "name": "HUNTER XMD",
+  "version": "4.5.0",
+  "description": "A WhatsApp Bot Created By Hunterxmd",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name NEXUS-XMD",
-    "stop": "pm2 stop NEXUS-XMD",
-    "restart": "pm2 restart NEXUS-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name CRISS-AI",
+    "stop": "pm2 stop HUNTER-XMD",
+    "restart": "pm2 restart HUNTER-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
