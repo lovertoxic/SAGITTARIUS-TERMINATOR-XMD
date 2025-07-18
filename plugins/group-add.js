@@ -5,7 +5,7 @@ cmd({
     alias: ["a", "invite"],
     desc: "Adds a member to the group",
     category: "admin",
-    react: "➕",
+    react: "🏑",
     filename: __filename
 },
 async (conn, mek, m, {
