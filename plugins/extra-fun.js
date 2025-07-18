@@ -272,7 +272,7 @@ cmd(
         pattern: "emoji",
         desc: "Convert text into emoji form.",
         category: "fun",
-        react: "🙂",
+        react: "😆",
         filename: __filename,
         use: "<text>"
     },
