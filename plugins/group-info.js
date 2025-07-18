@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 cmd({
     pattern: "ginfo",
-    react: "🥏",
+    react: "🆚",
     alias: ["groupinfo"],
     desc: "Get group informations.",
     category: "group",
