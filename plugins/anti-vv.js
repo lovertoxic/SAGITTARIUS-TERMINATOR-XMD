@@ -11,7 +11,7 @@ cmd({
   try {
     if (!isCreator) {
       return await client.sendMessage(from, {
-        text: "*📛 This is an owner command.*"
+        text: "*💻 This is an owner command.*"
       }, { quoted: message });
     }
 
