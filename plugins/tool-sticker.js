@@ -63,7 +63,7 @@ cmd(
 cmd({
     pattern: "attp",
     desc: "Convert text to a GIF sticker.",
-    react: "✨",
+    react: "💅",
     category: "convert",
     use: ".attp HI",
     filename: __filename,
