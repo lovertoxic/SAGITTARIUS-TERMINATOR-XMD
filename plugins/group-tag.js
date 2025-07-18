@@ -4,7 +4,7 @@ const { cmd } = require('../command');
 cmd({
   pattern: "hidetag",
   alias: ["tag", "h"],  
-  react: "🔊",
+  react: "🐟",
   desc: "To Tag all Members for Any Message/Media",
   category: "group",
   use: '.hidetag Hello',
