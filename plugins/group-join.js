@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 cmd({
     pattern: "join",
-    react: "📬",
+    react: "🩱",
     alias: ["joinme", "f_join"],
     desc: "To Join a Group from Invite link",
     category: "group",
