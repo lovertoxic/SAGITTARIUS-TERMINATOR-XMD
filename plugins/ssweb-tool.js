@@ -1,4 +1,4 @@
-// code by ⿻ ⌜ 𝐂𝐑𝐈𝐒𝐒 ⌟⿻⃮͛🇵🇰𖤐
+// code by ⿻ ⌜ sir bravin ⌟⿻⃮͛🇵🇰𖤐
 
 const axios = require("axios");
 const config = require('../config');
@@ -37,8 +37,8 @@ async (conn, mek, m, {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363378608564635@newsletter',
-          newsletterName: "CRISS AI SUPPORT",
+          newsletterJid: '120363366284524544@newsletter',
+          newsletterName: "sir bravin",
           serverMessageId: 143,
         },
       },
@@ -51,4 +51,4 @@ async (conn, mek, m, {
   }
 });
 
-// ⿻ ⌜ 𝐂𝐑𝐈𝐒𝐒 ⌟⿻⃮͛🇵🇰𖤐
+// ⿻ ⌜ sir bravin ⌟⿻⃮͛🇵🇰𖤐
