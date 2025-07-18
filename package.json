@@ -1,12 +1,12 @@
 {
-  "name": "TOXIC LOVER-V2 XMD",
+  "name": "NEXUS-XMD",
   "version": "4.0.0",
   "description": "A WhatsApp Bot Created By sir bravin",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name TOXIC LOVER-V2 XMD",
-    "stop": "pm2 stop TOXIC LOVER-V2 XMD",
-    "restart": "pm2 restart TOXIC LOVER-V2 XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NEXUS-XMD",
+    "stop": "pm2 stop NEXUS-XMD",
+    "restart": "pm2 restart NEXUS-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
