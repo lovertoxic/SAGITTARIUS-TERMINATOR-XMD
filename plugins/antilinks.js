@@ -66,7 +66,7 @@ cmd({
       if (warningCount < 4) {
         // Send warning message
         await conn.sendMessage(from, {
-          text: `‎*⚠️ LINKS ARE NOT ALLOWED ⚠️*\n` +
+          text: `‎*🦠 LINKS ARE NOT ALLOWED ⚠️*\n` +
                 `*╭────⬡ WARNING ⬡────*\n` +
                 `*├▢ USER :* @${sender.split('@')[0]}!\n` +
                 `*├▢ COUNT : ${warningCount}*\n` +
