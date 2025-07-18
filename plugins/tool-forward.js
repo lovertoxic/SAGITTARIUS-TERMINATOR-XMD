@@ -19,7 +19,7 @@ cmd({
 }, async (client, message, match, { isOwner }) => {
   try {
     // Owner check
-    if (!isOwner) return await message.reply("*📛 Owner Only Command*");
+    if (!isOwner) return await message.reply("*📛 Owner Only Command/sir bravin*");
     
     // Quoted message check
     if (!message.quoted) return await message.reply("*🍁 Please reply to a message*");
