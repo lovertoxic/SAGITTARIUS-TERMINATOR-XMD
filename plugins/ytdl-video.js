@@ -4,7 +4,7 @@ const yts = require('yt-search');
 
 cmd({
     pattern: "video2",
-    alias: ["mp4", "song"],
+    alias: ["sir bravin mp4", "song"],
     react: "🎥",
     desc: "Download video from YouTube",
     category: "download",
