@@ -6,7 +6,7 @@ cmd({
     pattern: "yt2",
     alias: ["play2", "music"],
     react: "🎵",
-    desc: "Download audio from YouTube",
+    desc: "Audio downloaded from YouTube",
     category: "download",
     use: ".song <query or url>",
     filename: __filename
