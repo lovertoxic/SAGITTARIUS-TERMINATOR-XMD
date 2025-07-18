@@ -6,7 +6,7 @@ cmd({
     alias: ["cinfo", "country","cinfo2"],
     desc: "Get information about a country",
     category: "info",
-    react: "🌍",
+    react: "🌹",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
