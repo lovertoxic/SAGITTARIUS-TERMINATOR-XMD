@@ -5,7 +5,7 @@ cmd({
     alias: ["p", "makeadmin"],
     desc: "Promotes a member to group admin",
     category: "admin",
-    react: "⬆️",
+    react: "🛢️",
     filename: __filename
 },
 async(conn, mek, m, {
