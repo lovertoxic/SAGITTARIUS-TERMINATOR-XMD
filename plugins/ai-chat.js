@@ -6,7 +6,7 @@ cmd({
     alias: ["bot", "dj", "gpt", "gpt4", "bing"],
     desc: "Chat with an AI model",
     category: "ai",
-    react: "🤖",
+    react: "🐐",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
@@ -75,7 +75,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         const { data } = await axios.get(apiUrl);
 
         if (!data || !data.answer) {
-            await react("❌");
+            await react("❌"); 
             return reply("DeepSeek AI failed to respond. Please try again later.");
         }
 
