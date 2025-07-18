@@ -4,7 +4,7 @@ const { cmd } = require("../command");
 cmd({
   pattern: "npm",
   desc: "Search for a package on npm.",
-  react: '📦',
+  react: '💐',
   category: "convert",
   filename: __filename,
   use: ".npm <package-name>"
@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*CRISS-AI NPM SEARCH*
+*SIR BRAVIN NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
