@@ -5,7 +5,7 @@ cmd({
     alias: ["d", "dismiss", "removeadmin"],
     desc: "Demotes a group admin to a normal member",
     category: "admin",
-    react: "⬇️",
+    react: "🔌",
     filename: __filename
 },
 async(conn, mek, m, {
