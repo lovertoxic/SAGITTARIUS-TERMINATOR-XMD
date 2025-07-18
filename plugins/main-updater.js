@@ -8,7 +8,7 @@ const { setCommitHash, getCommitHash } = require('../data/updateDB');
 cmd({
     pattern: "update",
     alias: ["upgrade", "sync"],
-    react: '🆕',
+    react: '❤️‍🔥',
     desc: "Update the bot to the latest version.",
     category: "misc",
     filename: __filename
@@ -16,7 +16,7 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for CRISS-AI updates...");
+        await reply("🔍 Checking for toxic lover-v2 xmd updates...");
 
         // Fetch the latest commit hash from GitHub
         const { data: commitData } = await axios.get("https://api.github.com/repos/criss-vevo/CRISS-AI/commits/main");
@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your CRISS-AI bot is already up-to-date!");
+            return reply("✅ Your toxic lover-v2 xmd bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating CRISS-AI Bot...");
+        await reply("🚀 Updating toxic lover-v2 xmd Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "CRISS-AI-main");
+        const sourcePath = path.join(extractPath, "TOXIC LOVER-V2 XMD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
