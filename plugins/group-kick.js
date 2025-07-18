@@ -5,7 +5,7 @@ cmd({
     alias: ["kick", "k"],
     desc: "Removes a member from the group",
     category: "admin",
-    react: "❌",
+    react: "‼️",
     filename: __filename
 },
 async (conn, mek, m, {
