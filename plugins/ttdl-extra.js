@@ -12,7 +12,7 @@ async (conn, mek, m, { from, args, quoted, reply }) => {
     try {
         // Validate input
         if (!args[0]) {
-            return reply(`✳️ Use this command like:\n *${command} <TikTok link>*`);
+            return reply(`❤️‍🩹 Use this command like:\n *${command} <TikTok link>*`);
         }
 
         reply("⏳ Fetching video details... Please wait.");
