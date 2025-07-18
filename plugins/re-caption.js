@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 cmd({
   pattern: "caption",
   alias: ["cap", "recaption", "c"],
-  react: '✏️',
+  react: '🦥',
   desc: "Add or change caption of media/document",
   category: "utility",
   filename: __filename
