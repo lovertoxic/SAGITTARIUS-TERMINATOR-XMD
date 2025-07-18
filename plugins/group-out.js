@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "out",
-    alias: ["ck", "🦶"],
+    alias: ["ck", "🕯️"],
     desc: "Removes all members with specific country code from the group",
     category: "admin",
     react: "❌",
