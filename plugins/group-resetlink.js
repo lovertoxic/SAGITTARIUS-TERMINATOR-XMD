@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 cmd({
     pattern: "revoke",
-    react: "🖇️",
+    react: "🃏",
     alias: ["revokegrouplink","resetglink","revokelink","f_revoke"],
     desc: "To Reset the group link",
     category: "group",
