@@ -5,7 +5,7 @@ cmd({
   pattern: "srepo",
   desc: "Fetch information about a GitHub repository.",
   category: "other",
-  react: "🍃",
+  react: "🖥️",
   filename: __filename
 }, async (conn, m, store, { from, args, reply }) => {
   try {
