@@ -4,7 +4,7 @@ const { cmd } = require("../command");
 cmd({
   pattern: "fancy",
   alias: ["font", "style"],
-  react: "✍️",
+  react: "💰",
   desc: "Convert text into various fonts.",
   category: "tools",
   filename: __filename
