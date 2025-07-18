@@ -6,7 +6,7 @@ cmd({
   pattern: "marige",
   alias: ["shadi", "marriage", "wedding"],
   desc: "Randomly pairs two users for marriage with a wedding GIF",
-  react: "💍",
+  react: "🏟️",
   category: "fun",
   filename: __filename
 }, async (conn, mek, store, { isGroup, groupMetadata, reply, sender }) => {
