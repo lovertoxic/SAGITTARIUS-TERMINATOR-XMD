@@ -94,7 +94,7 @@ cmd({
     alias: ["checkotp", "getotp"],
     desc: "Check OTP messages for temporary number",
     category: "tools",
-    react: "🔑",
+    react: "🧩",
     use: "<full-number>"
 },
 async (conn, mek, m, { from, args, reply }) => {
