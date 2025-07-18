@@ -17,7 +17,7 @@ cmd({
             from,
             {
               sticker: { url: data[keyword] },
-              package: 'CRISS-AI'
+              package: 'sir bravin'
             },
             { quoted: mek }
           );
