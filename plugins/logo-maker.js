@@ -344,7 +344,7 @@ cmd({
     pattern: "thor",
     desc: "Create a Thor text effect",
     category: "logo",
-    react: "🎨",
+    react: "🧑‍🦽",
     filename: __filename
 }, async (conn, mek, m, { from, args, reply }) => {
     try {
