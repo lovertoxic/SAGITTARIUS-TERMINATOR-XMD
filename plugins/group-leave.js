@@ -9,7 +9,7 @@ cmd({
     pattern: "leave",
     alias: ["left", "leftgc", "leavegc"],
     desc: "Leave the group",
-    react: "🎉",
+    react: "🛝",
     category: "owner",
     filename: __filename
 },
