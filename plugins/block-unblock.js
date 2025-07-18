@@ -4,7 +4,7 @@ cmd({
     pattern: "block",
     desc: "Blocks a person",
     category: "owner",
-    react: "🚫",
+    react: "🔥",
     filename: __filename
 },
 async (conn, m, { reply, q, react }) => {
