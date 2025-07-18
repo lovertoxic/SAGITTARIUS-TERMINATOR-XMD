@@ -1,7 +1,36 @@
-FROM node:lts-buster
-RUN git clone https://github.com/pkdriller/NEXUS-XMD/root/ikJawad
-WORKDIR /root/ikJawad
-RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
+# Base image
+
+FROM node:16
+
+
+
+# Set working directory
+
+WORKDIR /usr/src/app
+
+
+
+# Copy package.json and install dependencies
+
+COPY package*.json ./
+
+RUN npm install
+
+
+
+# Copy application source code
+
 COPY . .
-EXPOSE 9090
+
+
+
+# Expose the port the app runs on
+
+EXPOSE 3000
+
+
+
+# Start the application
+
 CMD ["npm", "start"]
+
