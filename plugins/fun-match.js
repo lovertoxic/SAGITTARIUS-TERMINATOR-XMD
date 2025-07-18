@@ -5,7 +5,7 @@ cmd({
   pattern: "bacha",
   alias: ["boy", "larka"],
   desc: "Randomly selects a boy from the group",
-  react: "👦",
+  react: "👶",
   category: "fun",
   filename: __filename
 }, async (conn, mek, store, { isGroup, groupMetadata, reply, sender }) => {
