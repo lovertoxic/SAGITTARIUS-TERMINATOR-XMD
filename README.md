@@ -168,6 +168,6 @@
 
 <p align="center">
   <a href="https://github.com/toxiclover-tech">
-    <img title="Developer" src="https://img.shields.io/badge/Author-JEEPERS%20CREEPERS%20XMD-FF00FF.svg?style=big-square&logo=github" />
+    <img title="Developer" src="https://img.shields.io/badge/Author-sir%20bravin%20tech-FF00FF.svg?style=big-square&logo=github" />
   </a>
 </p>[
