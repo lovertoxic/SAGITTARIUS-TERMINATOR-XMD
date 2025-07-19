@@ -85,7 +85,7 @@
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=JEEPERS+CREEPER+XMD;DEPLOYMENT+SIGHT"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=TOXIC+LOVER-V2+XMD;DEPLOYMENT+SIGHT"alt="Animated
 
 <div align="center">
   <table>
@@ -109,7 +109,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=JEEPERS+CREEPERS-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=toxic+lover-v2-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
 
 <div align="center">
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
@@ -144,16 +144,16 @@
 <div align="center">
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
 </div>
-    <a href="https://github.com/toxiclover-tech/TOXIC-LOVER-MD"
-    <img src="https://github-readme-stats.vercel.app/api?username=TOXIC LOVER TECH&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+    <a href="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD"
+    <img src="https://github-readme-stats.vercel.app/api?username=lovertoxic&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
+  <img src="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=JEEPERS;CREEPER-XMD;BOT" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=sir;bravin;BOT" alt="Typing SVG" /></a>
   </p>
 
 ```diff
