@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254701082940']
+  const ownerNumber = ['254717263689']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -293,7 +293,7 @@ if (!isReact && senderNumber !== botNumber) {
         const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
         m.react(randomReaction);
     }
-}
+} 
 
 if (!isReact && senderNumber === botNumber) {
     if (config.CUSTOM_REACT === 'true') {
