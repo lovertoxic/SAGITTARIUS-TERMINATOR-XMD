@@ -1,12 +1,12 @@
 {
-  "name": "HUNTER XMD",
+  "name": "TOXIC LOVER-V2 XMD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By Hunterxmd",
+  "description": "A WhatsApp Bot Created By sir bravin",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name CRISS-AI",
-    "stop": "pm2 stop HUNTER-XMD",
-    "restart": "pm2 restart HUNTER-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name sir bravin",
+    "stop": "pm2 stop TOXIC LOVER-V2 XMD",
+    "restart": "pm2 restart TOXIC LOVER-V2 XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
