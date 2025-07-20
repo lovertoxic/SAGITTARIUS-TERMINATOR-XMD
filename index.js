@@ -112,7 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ 𝙷𝙴𝙻𝙻𝙾𝚆 toxic-lover-v2 xmd 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
+  let up = `*✨ 𝙷𝙴𝙻𝙻𝙾𝚆 toxic-lover-v2 xmd✨*
 
 ╭─〔 *💻 toxic lover v2 xmd* 〕  
 ├─▸ *𝕤𝕚𝕞𝕡𝕝𝕚𝕔𝕚𝕥𝕪. 𝕤𝕡𝕖𝕖𝕕. 𝕡𝕠𝕨𝕖𝕣𝕖𝕕 . 𝕓𝕪 sir bravin |*  
