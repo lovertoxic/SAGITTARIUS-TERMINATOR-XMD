@@ -61,14 +61,14 @@
   
 --- 
   > **😈JEEPERS CREEPERS-XMD SESSION LINK (01)😈**
-  <a href='https://jeepers-creepers-xmd-session-link-1.onrender.com' target="_blank">
+  <a href='https://jeepers-creepers-xmlink-1.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
   <div style="height: 10px;"></div>
   
   > **😈JEEPERS CREEPERS-XMD SESSION LINK (02)😈**
-  <a href='https://jeepers-creepers-xmd-session-link-1.onrender.com' target="_blank">
+  <a href='https://jeepers--session-link-1.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a>
   
@@ -120,12 +120,6 @@
 <div align="center">
   <a href="https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://wa.link/3rc9x7">
-    <img src="https://img.shields.io/badge/message-%20developer-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
 
