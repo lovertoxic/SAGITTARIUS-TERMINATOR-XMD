@@ -21,7 +21,7 @@
 
 ---
 <div align="center">
-  <img src="https://files.catbox.moe/12ry7x.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
+  <img src="https://files.catbox.moe/dvrg4d.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
 </div>
 
 <div align="center">
@@ -115,6 +115,9 @@
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
 </div>
 
+<div align="center">
+  <img src="https://files.catbox.moe/ohumzd.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
+</div>
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
@@ -165,3 +168,6 @@
     <img title="Developer" src="https://img.shields.io/badge/Author-sir%20bravin%20tech-FF00FF.svg?style=big-square&logo=github" />
   </a>
 </p>[
+<div align="center">
+  <img src="https://files.catbox.moe/a2a1c3.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
+</div>
