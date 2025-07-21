@@ -22,7 +22,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         }
 
         await reply(`${data.message}`);
-        await react("✅");
+        await react("🏟️");
     } catch (e) {
         console.error("Error in AI command:", e);
         await react("❌");
