@@ -17,29 +17,31 @@ cmd({
         });
 
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃💝╭──────────────
-┃💘│  *Owner :* ${config.OWNER_NAME}
-┃💝│  *Baileys :* Multi Device
-┃💘│  *Type :* NodeJs
-┃💝│  *Platform :* vercel
-┃💘│  *Mode :* [${config.MODE}]
-┃💝│  *Prefix :* [${config.PREFIX}]
-┃💘│  *Version :* 5.0.0 max
-┃💝╰──────────────
+┃∆╭──────────────
+┃∆│  *Owner :* ${config.OWNER_NAME}
+┃∆│  *Baileys :* Multi Device
+┃∆│  *Type :* NodeJs
+┃∆│  *Made:in kenya/Eldoret 
+┃∆│  *Platform :* vercel
+┃∆│  *Mode :* [${config.MODE}]
+┃∆│  *Prefix :* [${config.PREFIX}]
+┃∆│  *Version :* 5.0.0 max
+┃∆╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
-┃💘╭─────────────·๏
-┃💝│1️⃣   *Download Menu*
-┃💘│2️⃣   *Group Menu*
-┃💝│3️⃣   *Fun Menu*
-┃❤️‍🔥│4️⃣   *Owner Menu*
-┃💝│5️⃣   *AI Menu*
-┃💓│6️⃣   *Anime Menu*
-┃💝│7️⃣   *Convert Menu*
-┃💘│8️⃣   *Other Menu*
-┃🌹│9️⃣   *Reactions Menu*
-┃💓│🔟   *Main Menu*
+┃∆╭─────────────·๏
+┃∆│1️⃣   *Download Menu*
+┃∆│2️⃣   *Group Menu*
+┃∆│3️⃣   *Fun Menu*
+┃∆│4️⃣   *Owner Menu*
+┃∆│5️⃣   *AI Menu*
+┃∆│6️⃣   *Anime Menu*
+┃∆│7️⃣   *Convert Menu*
+┃∆│8️⃣   *Other Menu*
+┃∆│9️⃣   *Reactions Menu*
+┃∆│🔟   *Main Menu*
 ┃◈╰───────────┈⊷
+┃◈reply to these menu with number form 1-10 
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -57,7 +59,7 @@ cmd({
         const sentMsg = await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/gnli0k.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/g6en87.jpg' },
                 caption: menuCaption,
                 contextInfo: contextInfo
             },
@@ -375,7 +377,7 @@ cmd({
                     await conn.sendMessage(
                         senderID,
                         {
-                            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/gnli0k.jpg' },
+                            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/dvrg4d.jpg' },
                             caption: selectedMenu.content,
                             contextInfo: contextInfo
                         },
