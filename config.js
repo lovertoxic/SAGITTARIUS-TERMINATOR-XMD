@@ -79,9 +79,7 @@ ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
-ANTICALL; process.env.ANTICALL || "true".
-//make it false to remove anticall
-ANTI_DELETE: process.env.ANTI_DELETE || "true"
-// set true false for anti delete     
+ANTICALL; process.env.ANTICALL || "true",
+//make it false to remove anticall 
 };
 };
