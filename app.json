@@ -28,14 +28,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
-      
-    },
-   
-     "ANTI_DELETE": {
-      "description": "set true for show deleted messages.",
-      "required": false,
-      "value": "true"  
+      "value": "public"  
     },
     
     "ALWAYS_ONLINE": {
@@ -150,12 +143,6 @@
       "description": "remove links from group automatically without removing member",
       "required": false,
       "value": "false"
-    },
-    
-    "ANTICALL": {
-      "description": "Make it true if you want bot to block incoming calls.",
-      "required": false,
-      "value": "true"
     },
     
     "AUTO_RECORDING": {
