@@ -47,7 +47,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/m4zhif.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *TOXIC LOVER-V2 XMD*⚡",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "true",
+READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
