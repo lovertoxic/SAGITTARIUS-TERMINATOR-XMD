@@ -47,7 +47,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/m4zhif.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *TOXIC LOVER-V2 XMD*⚡",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
@@ -77,6 +77,11 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
+ANTICALL; process.env.ANTICALL || "true".
+//make it false to remove anticall
+ANTI_DELETE: process.env.ANTI_DELETE || "true"
+// set true false for anti delete     
+};
 };
