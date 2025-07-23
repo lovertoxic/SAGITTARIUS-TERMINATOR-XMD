@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>sir bravin Verification</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+  <style>
+    :root {
+      --primary: #00ffd5;
+      --secondary: #00bfff;
+      --accent: #ff00aa;
+      --dark: #0f0f1a;
+      --darker: #0a0a12;
+      --light: rgba(255, 255, 255, 0.9);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at center, var(--darker), var(--dark));
+      overflow: hidden;
+      color: var(--light);
+    }
+
+    /* Cyberpunk Glow Effect */
+    .cyber-glows {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .cyber-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.15;
+    }
+
+    .glow-1 {
+      width: 500px;
+      height: 500px;
+      background: var(--primary);
+      top: -250px;
+      left: -250px;
+      animation: float-glow 15s ease infinite alternate;
+    }
+
+    .glow-2 {
+      width: 600px;
+      height: 600px;
+      background: var(--accent);
+      bottom: -300px;
+      right: -300px;
+      animation: float-glow 18s 2s ease infinite alternate;
+    }
+
+    @keyframes float-glow {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(50px, 50px); }
+      100% { transform: translate(-50px, -50px); }
+    }
+
+    /* Main Container */
+    .container {
+      background: rgba(15, 15, 30, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 40px;
+      width: 95%;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(0, 255, 213, 0.15);
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      animation: popIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: all 0.3s ease;
+    }
+
+    .container::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
+      z-index: -1;
+      border-radius: 18px;
+      animation: border-glow 4s linear infinite;
+      opacity: 0.7;
+      background-size: 400%;
+    }
+
+    @keyframes border-glow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes popIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Logo */
+    .logo-container {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid var(--primary);
+      object-fit: cover;
+      padding: 5px;
+      background: rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 20px rgba(0, 255, 213, 0.3);
+      animation: float 4s ease-in-out infinite;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-ring {
+      position: absolute;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px dashed var(--secondary);
+      top: -8px;
+      left: calc(50% - 65px);
+      animation: spin 20s linear infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Title */
+    .title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 25px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent), var(--primary));
+      background-size: 300% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 4s linear infinite;
+      position: relative;
+    }
+
+    .title::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 3px;
+    }
+
+    @keyframes shine {
+      0% { background-position: 0% center; }
+      100% { background-position: 300% center; }
+    }
+
+    /* Input */
+    .input-container {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .input-container input {
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(10, 10, 20, 0.7);
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      outline: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .input-container input::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .input-container input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 15px rgba(0, 255, 213, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .input-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Button */
+    .btn {
+      width: 100%;
+      padding: 15px;
+      background: linear-gradient(45deg, var(--primary), var(--secondary));
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
+      z-index: 1;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, var(--secondary), var(--primary));
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 191, 255, 0.4);
+    }
+
+    .btn:hover::before {
+      opacity: 1;
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn:disabled {
+      background: gray;
+      cursor: not-allowed;
+      transform: none !important;
+      box-shadow: none;
+    }
+
+    .btn i {
+      margin-right: 8px;
+    }
+
+    /* Status */
+    .status {
+      margin-top: 20px;
+      color: var(--light);
+      font-size: 14px;
+      min-height: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .success {
+      color: var(--primary);
+      text-shadow: 0 0 5px rgba(0, 255, 213, 0.3);
+    }
+
+    .error {
+      color: #ff4c4c;
+    }
+
+    .warning {
+      color: #ffcc00;
+    }
+
+    /* Progress Bar */
+    .progress-container {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      margin-top: 15px;
+      overflow: hidden;
+      display: none;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 2px;
+      transition: width 0.3s ease;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-links a {
+      color: rgba(255, 255, 255, 0.6);
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: var(--primary);
+    }
+
+    /* Particles */
+    .particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .particle {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      pointer-events: none;
+      animation: float-particle linear infinite;
+    }
+
+    @keyframes float-particle {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+        width: 95%;
+      }
+      
+      .title {
+        font-size: 1.8rem;
+      }
+      
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+      
+      .logo-ring {
+        width: 110px;
+        height: 110px;
+        top: -6px;
+        left: calc(50% - 55px);
+      }
+    }
+
+    /* Toggle Switch */
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+
+    .toggle-label {
+      color: var(--light);
+      font-size: 14px;
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 24px;
+    }
+
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: .4s;
+      border-radius: 24px;
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .toggle-slider {
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+    }
+
+    input:checked + .toggle-slider:before {
+      transform: translateX(26px);
+    }
+
+    /* Advanced Features Section */
+    .features {
+      display: none;
+      margin-top: 20px;
+      text-align: left;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .feature-item i {
+      color: var(--primary);
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cyberpunk Glow Effects -->
+  <div class="cyber-glows">
+    <div class="cyber-glow glow-1"></div>
+    <div class="cyber-glow glow-2"></div>
+  </div>
+
+  <!-- Floating Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="logo-container">
+      <div class="logo-ring"></div>
+      <img src="https://files.catbox.moe/9bclq1.jpg" alt="sir bravin Logo" class="logo" />
+    </div>
+    
+    <h2 class="title">sir bravin Verification</h2>
+    
+    <!-- Advanced Options Toggle -->
+    <div class="toggle-container">
+      <span class="toggle-label">Advanced Options</span>
+      <label class="toggle-switch">
+        <input type="checkbox" id="advancedToggle">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    
+    <!-- Advanced Features (Hidden by Default) -->
+    <div class="features" id="advancedFeatures">
+      <div class="feature-item">
+        <i class="fas fa-shield-alt"></i>
+        <span>Enhanced Security Verification</span>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-rocket"></i>
+        <span>Performance Optimization</span>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-cogs"></i>
+        <span>Custom Deployment Settings</span>
+      </div>
+    </div>
+    
+    <form id="usernameForm">
+      <div class="input-container">
+        <i class="fas fa-user input-icon"></i>
+        <input type="text" id="name" placeholder="GitHub Username" required />
+      </div>
+      
+      <div class="input-container">
+        <i class="fas fa-key input-icon"></i>
+        <input type="password" id="token" placeholder="GitHub Token (Optional)" />
+      </div>
+      
+      <button type="button" class="btn" id="deployButton" onclick="verify();">
+        <i class="fas fa-cloud-upload-alt"></i> Verify & Deploy
+      </button>
+      
+      <div id="statusMessage" class="status"></div>
+      <div class="progress-container" id="progressContainer">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </form>
+    
+    <div class="footer">
+      <span>© 2025 sir bravin| All Rights Reserved</span>
+      <div class="social-links">
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" title="Discord"><i class="fab fa-discord"></i></a>
+        <a href="#" title="Telegram"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Create floating particles
+    function createParticles() {
+      const particlesContainer = document.getElementById('particles');
+      const particleCount = 30;
+      
+      for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        
+        // Random properties
+        const size = Math.random() * 3 + 1;
+        const posX = Math.random() * 100;
+        const duration = Math.random() * 15 + 10;
+        const delay = Math.random() * 5;
+        
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+        particle.style.left = `${posX}%`;
+        particle.style.bottom = `-10px`;
+        particle.style.animationDuration = `${duration}s`;
+        particle.style.animationDelay = `${delay}s`;
+        particle.style.opacity = Math.random() * 0.5 + 0.1;
+        
+        particlesContainer.appendChild(particle);
+      }
+    }
+    
+    // Toggle advanced features
+    document.getElementById('advancedToggle').addEventListener('change', function() {
+      const features = document.getElementById('advancedFeatures');
+      if (this.checked) {
+        features.style.display = 'block';
+      } else {
+        features.style.display = 'none';
+      }
+    });
+    
+    // Simulate progress bar
+    function updateProgress(percent) {
+      const progressBar = document.getElementById('progressBar');
+      const progressContainer = document.getElementById('progressContainer');
+      
+      progressContainer.style.display = 'block';
+      progressBar.style.width = `${percent}%`;
+      
+      if (percent >= 100) {
+        setTimeout(() => {
+          progressContainer.style.display = 'none';
+        }, 500);
+      }
+    }
+    
+    // Main verification function
+    async function verify() {
+      const username = document.getElementById('name').value.trim();
+      const token = document.getElementById('token').value.trim();
+      const deployButton = document.getElementById("deployButton");
+      const statusMessage = document.getElementById("statusMessage");
+      
+      // Reset status
+      statusMessage.className = "status";
+      
+      if (!username) {
+        statusMessage.textContent = "Please enter your GitHub username";
+        statusMessage.className = "status error";
+        return;
+      }
+      
+      deployButton.disabled = true;
+      deployButton.innerHTML = "<i class='fas fa-spinner fa-spin'></i> Verifying...";
+      statusMessage.textContent = "Initializing verification process...";
+      
+      // Show progress
+      updateProgress(10);
+      
+      try {
+        // Check if repository exists
+        updateProgress(30);
+        statusMessage.textContent = "Checking GitHub repository...";
+        
+        const repoCheck = await axios.get(
+          `https://api.github.com/repos/${username}/CHARLESKE-XMD`,
+          token ? { headers: { Authorization: `token ${token}` } } : {}
+        );
+        
+        updateProgress(60);
+        statusMessage.textContent = "Validating repository structure...";
+        
+        // Check for required files
+        const contents = await axios.get(
+          `https://api.github.com/repos/${username}/CHARLESKE-XMD/contents`,
+          token ? { headers: { Authorization: `token ${token}` } } : {}
+        );
+        
+        const hasPackageJson = contents.data.some(file => file.name === 'package.json');
+        const hasIndexJs = contents.data.some(file => file.name === 'index.js');
+        
+        if (!hasPackageJson || !hasIndexJs) {
+          throw new Error("Repository is missing required files");
+        }
+        
+        updateProgress(90);
+        statusMessage.textContent = "Finalizing verification...";
+        
+        // Success - redirect to deployment
+        setTimeout(() => {
+          updateProgress(100);
+          statusMessage.textContent = "✅ Verification successful! Redirecting to deployment...";
+          statusMessage.className = "status success";
+          
+          setTimeout(() => {
+            window.location.href = `https://dashboard.heroku.com/new?template=https://github.com/${username}/CHARLESKE-XMD`;
+          }, 1500);
+        }, 1000);
+        
+      } catch (error) {
+        updateProgress(0);
+        
+        if (error.response && error.response.status === 404) {
+          statusMessage.textContent = "Repository not found. You need to fork the main repository first.";
+          statusMessage.className = "status error";
+          
+          if (confirm("You haven't forked the main repository. Would you like to fork it now?")) {
+            window.open('https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/fork', '_blank');
+          }
+        } else if (error.message === "Repository is missing required files") {
+          statusMessage.textContent = "The repository is missing essential files. Please fork a fresh copy.";
+          statusMessage.className = "status error";
+        } else if (error.response && error.response.status === 403) {
+          statusMessage.textContent = "API rate limit exceeded. Please add a GitHub token for unlimited access.";
+          statusMessage.className = "status warning";
+        } else {
+          statusMessage.textContent = "Error: " + (error.message || "Please try again later");
+          statusMessage.className = "status error";
+          console.error("Verification error:", error);
+        }
+      } finally {
+        deployButton.disabled = false;
+        deployButton.innerHTML = "<i class='fas fa-cloud-upload-alt'></i> Verify & Deploy";
+      }
+    }
+    
+    // Initialize particles on load
+    window.addEventListener('load', () => {
+      createParticles();
+      
+      // Allow Enter key to trigger verification
+      document.getElementById('name').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          verify();
+        }
+      });
+      
+      document.getElementById('token').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          verify();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
