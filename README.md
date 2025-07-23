@@ -105,7 +105,7 @@
 </div>
 <p align="center">
   <a href="https:talkdrove.com?referralCode=usJR_h">
-    <img src="https://img.shields.io/badge/DEPLOY NOW-talkdrove?style=for-the-badge&logo=railway&logoColor=white" width="220" height="38.45" />
+    <img src="https://img.shields.io/badge/TALKDOVE-talkdrove?style=for-the-badge&logo=railway&logoColor=white" width="220" height="38.45" />
   </a>
 
 <div align="center">
