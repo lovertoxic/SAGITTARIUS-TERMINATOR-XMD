@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "sir-bravin~A6tEGYTa#fDCz5st8EIw_WPc4FeBmZ986fQnPQN_bNfTodKIqegE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY TOXIC LOVER-V2 XMD.*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY sir bravin 🤍*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -23,13 +23,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/m4zhif.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/dvrg4d.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "TOXIC LOVER-V2 XMD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "TOXIC LOVER-V2 XMD",
+STICKER_NAME: process.env.STICKER_NAME || "sir bravin ",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -41,11 +41,11 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "254717263689",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "sir bravin",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© powered by sir bravin*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ sir bravin*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/m4zhif.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/dvrg4d.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *TOXIC LOVER-V2 XMD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *sir bravin*",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -79,5 +79,4 @@ ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
-};
 };
