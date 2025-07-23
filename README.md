@@ -94,9 +94,6 @@
 <p align="left">
 <a href='http://weldone-am1p.vercel.app' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Heroku%20Deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 </p>
-      <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
-    </tr>
-    <tr>
       <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=toxiclover-tech/TOXIC-LOVER-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
@@ -106,6 +103,10 @@
     </tr>
   </table>
 </div>
+<p align="center">
+  <a href="https:talkdrove.com?referralCode=usJR_h">
+    <img src="https://img.shields.io/badge/DEPLOY NOW-talkdrove?style=for-the-badge&logo=railway&logoColor=white" width="220" height="38.45" />
+  </a>
 
 <div align="center">
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
