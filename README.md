@@ -90,10 +90,7 @@
 <div align="center">
   <table>
     <tr>
-      <h4 align="left">1. 𝐇𝐄𝐑𝐎𝐊𝐔</h4>
-<p align="left">
-<a href='http://weldone-am1p.vercel.app' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Heroku%20Deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
-</p>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
       <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=toxiclover-tech/TOXIC-LOVER-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
