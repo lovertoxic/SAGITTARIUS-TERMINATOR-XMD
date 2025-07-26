@@ -1,12 +1,12 @@
 {
-  "name": "sir-bravin",
+  "name": "HUNTER-XMD.5",
   "version": "3.0.0",
   "description": "A WhatsApp Bot Created By ᴏʙᴇᴅᴛᴇᴄʜ",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name sir-bravin",
-    "stop": "pm2 stop sir-bravin",
-    "restart": "pm2 restart sir-bravin"
+    "start": "pm2 start index.js --deep-monitoring --attach --name HUNTER-XMD",
+    "stop": "pm2 stop HUNTER-XMD",
+    "restart": "pm2 restart HUNTER-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
