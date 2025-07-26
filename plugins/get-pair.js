@@ -7,7 +7,7 @@ cmd({
     react: "✅",
     desc: "Get pairing code for toxic lover+v2 xmd bot",
     category: "download",
-    use: ".pair +25471726XXX",
+    use: ".pair 25471726XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -64,7 +64,7 @@ cmd({
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://sir-bravines.onrender.com?phone=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://sir-bravins-pair-toxic.onrender.com?phone=${encodeURIComponent(phoneNumber)}`);
         
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
