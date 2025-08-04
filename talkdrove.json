@@ -1,11 +1,11 @@
 
 {
-    "bot-name": "tanzania xmd",
+    "bot-name": "SAGITTARIUS TERMINATOR xmd",
     "description": "Whiskey Sockets Baileys Whatsapp bot By Mr sir bravin",
     "logo": "https://files.catbox.moe/m4zhif.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://nexus-xmd-pair-site-am98.onrender.com/",
-    "owner-verification": "sir bravin",  
+    "owner-verification": "sir T20",  
     "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with nexus~  or get session id from here,  https://nexus-xmd-pair-site-am98.onrender.com/",
@@ -20,7 +20,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "tanzania xmd 𝙱𝙾𝚃"  
+      "value": "SAGITARIUS TERMINATOR xmd 𝙱𝙾𝚃"  
     },    
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
@@ -65,12 +65,12 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254717263689"
+      "value": "255625606354"
    }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "tanzania xmd"
+      "value": "SAGITTARIUS TERMINATOR xmd"
    }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
