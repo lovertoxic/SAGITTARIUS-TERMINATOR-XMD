@@ -1,6 +1,6 @@
 
 {
-    "bot-name": "TOXIC LOVER-V2 XMD",
+    "bot-name": "tanzania xmd",
     "description": "Whiskey Sockets Baileys Whatsapp bot By Mr sir bravin",
     "logo": "https://files.catbox.moe/m4zhif.jpg",
     "keywords": ["bot"],
@@ -20,7 +20,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "NEXUS-XMD 𝙱𝙾𝚃"  
+      "value": "tanzania xmd 𝙱𝙾𝚃"  
     },    
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
@@ -70,7 +70,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "TOXIC LOVER-V2 XMD"
+      "value": "tanzania xmd"
    }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
