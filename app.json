@@ -1,8 +1,8 @@
 {
-  "name": "toxic lover v2 xmd",
-  "description": "Javascript WhatsApp bot made by sir bravin",
+  "name": "SAGITTARIUS TERMINATOR xmd",
+  "description": "Javascript WhatsApp bot made by sir T20 $xibs",
   "logo": "https://files.catbox.moe/dvrg4d.jpg",
-  "keywords": ["TOXIC LOVER-V2 XMD"],
+  "keywords": ["SAGITTARIUS TERMINATOR XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "Toxic lover-v2 xmd"
+      "value": "SAGITTARIUS TERMINATOR xmd"
     }, 
       
     "PREFIX": {
@@ -86,20 +86,20 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "sir bravin"
+      "value": "sir T20"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "2547172636+++++"
+      "value": "25576841+++++"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "sir bravin "
+      "value": "sir T20 xibs"
 
       }, 
 
