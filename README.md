@@ -110,7 +110,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=toxic+lover-v2-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=SAGITTARIUS+TERMINATOR;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
 
 <div align="center">
   <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
@@ -151,7 +151,7 @@
   <img src="https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=sir;bravin;BOT" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=sir;T20;$Xibs;BOT" alt="Typing SVG" /></a>
   </p>
 
 ```diff
