@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=TOXIC%20LOVER-V2-XMD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=SAGITTARIUS%20TERMINATOR-XMD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=REMEMBER+TO;STAR+AND;FORK;TOXIC;LOVER-V2;-XMD;REPO" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=REMEMBER+TO;STAR+AND;FORK;SAGITTARIUS;TERMINATOR;-XMD;REPO" alt="Typing SVG" /></a>
   </p>
 ```
 
@@ -36,7 +36,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=TXLV-V2+XMD;DEPLOYMENT+STEPS"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=SGTRS+XMD;DEPLOYMENT+STEPS"alt="Animated
 
 <div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">
   
@@ -60,14 +60,14 @@
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #00ffff;">
   
 --- 
-  > **😈SIR BRAVIN SESSION LINK (01)😈**
+  > **😈SIR T20 SESSION LINK (01)😈**
   <a href='https://on-vybe.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
   <div style="height: 10px;"></div>
   
-  > **🚫 SIR BRAVIN SESSION LINK (02)😈**
+  > **🚫 SIR XIBS SESSION LINK (02)😈**
   <a href='https://on-vybe.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a>
@@ -166,7 +166,7 @@
 
 <p align="center">
   <a href="https://github.com/toxiclover-tech">
-    <img title="Developer" src="https://img.shields.io/badge/Author-sir%20bravin%20tech-FF00FF.svg?style=big-square&logo=github" />
+    <img title="Developer" src="https://img.shields.io/badge/Author-sir%20T20 %20xibstech-FF00FF.svg?style=big-square&logo=github" />
   </a>
 </p>[
 <div align="center">
