@@ -122,7 +122,7 @@
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g">
+  <a href="https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
