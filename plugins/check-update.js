@@ -58,7 +58,7 @@ cmd({
     // Check update status
     let updateMessage = `✅ Your ʜᴜɴᴛᴇʀ xᴍᴅ bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your toxic lover-v2 xmd bot is outdated!
+      updateMessage = `🚀 Your SAGITTARIUS TERMINATOR xmd bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,7 +66,7 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* Toxic lover - v2 xᴍᴅ\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* SAGITTARIUS TERMINATOR xᴍᴅ\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
       `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [sir bravin](https://github.com/lovertoxic)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
@@ -81,7 +81,7 @@ Use *.update* to update.`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363366284524544@newsletter',
-                        newsletterName: 'sir bravin',
+                        newsletterName: 'sir T20_STARBOY',
                         serverMessageId: 143
         }
       }
