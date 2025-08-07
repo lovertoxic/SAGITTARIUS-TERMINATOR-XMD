@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "sir bravin~A6tEGYTa#fDCz5st8EIw_WPc4FeBmZ986fQnPQN_bNfTodKIqegE",
+SESSION_ID: process.env.SESSION_ID || "sir T20-CLASSIC ~A6tEGYTa#fDCz5st8EIw_WPc4FeBmZ986fQnPQN_bNfTodKIqegE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY sor bravin 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY the terminators🤍*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -27,9 +27,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/dvrg4d.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "toxic lover-v2 xmd",
+BOT_NAME: process.env.BOT_NAME || "SAGITTARIUS TERMINATOR xmd",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "toxic lover-v2 xmd",
+STICKER_NAME: process.env.STICKER_NAME || "SAGITTARIUS TERMINATOR xmd",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -37,15 +37,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254724908267",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "255625606354",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "sir bravin tech",
+OWNER_NAME: process.env.OWNER_NAME || "sir T20 & xibs tech",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ sir bravin*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ sir T20*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/dvrg4d.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *toxic lover-V2 xmd*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *Sagittarius terminator xmd*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
