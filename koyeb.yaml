@@ -1,6 +1,6 @@
-name: toxic lover-v2 xmd
+name: SAGITTARIUS TERMINATOR xmd
 services:
-  - name: toxic lover-v2 xmd-service
+  - name: SAGITTARIUS TERMINATOR xmd-service
     type: web
     ports:
       - 5000
