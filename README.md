@@ -61,7 +61,7 @@
   
 --- 
   > **😈SIR T20 SESSION LINK (01)😈**
-  <a href='https://on-vybe.onrender.com' target="_blank">
+  <a href='https://sir-t20-best-developer-in-tanzania.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
