@@ -21,7 +21,7 @@ cmd({
 ┃∆│  *Owner :* ${config.OWNER_NAME}
 ┃∆│  *Baileys :* Multi Device
 ┃∆│  *Type :* NodeJs
-┃∆│  *Made:in kenya/Eldoret 
+┃∆│  *Made:in Tanzania/dodoma
 ┃∆│  *Platform :* vercel
 ┃∆│  *Mode :* [${config.MODE}]
 ┃∆│  *Prefix :* [${config.PREFIX}]
