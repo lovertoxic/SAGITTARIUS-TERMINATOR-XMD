@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*BOT NAME:* *${repoData.name}*\n\n*OWNER NAME:* *${repoData.owner.login}*\n\n*STARS:* *${repoData.stargazers_count}*\n\n*FORKS:* *${repoData.forks_count}*\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By sir bravin 🖤*`;
+        const formattedInfo = `*BOT NAME:* *${repoData.name}*\n\n*OWNER NAME:* *${repoData.owner.login}*\n\n*STARS:* *${repoData.stargazers_count}*\n\n*FORKS:* *${repoData.forks_count}*\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By ★彡[ꜱɪʀ ᴛ20]彡★ 🖤*`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363366284524544@newsletter',
-                    newsletterName: 'sir bravin',
+                    newsletterName: '★彡[ꜱɪʀ ᴛ20]彡★',
                     serverMessageId: 143
                 }
             }
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '.120363366284524544@newsletter',
-                    newsletterName: 'sir bravin',
+                    newsletterName: '★彡[ꜱɪʀ ᴛ20]彡★',
                     serverMessageId: 143
                 }
             }
