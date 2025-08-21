@@ -50,7 +50,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃▸ *Channel:* ${channelMeta.name}
 ┃▸ *Reaction:* ${emoji}
 ╰────────────────┈⊷
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ sir bravin♡*`);
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ ₮₂₀☆𓂀𝕊𝕋𝔸ℝ𝔹𝕆𝕐𓂀♡*`);
     } catch (e) {
         console.error(e);
         reply(`❎ Error: ${e.message || "Failed to send reaction"}`);
