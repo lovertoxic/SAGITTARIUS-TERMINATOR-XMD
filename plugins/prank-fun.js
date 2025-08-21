@@ -43,7 +43,7 @@ async (conn, mek, m, {
             '⚠️ *Note:* All actions are for demonstration purposes only.',
             '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
             
-            '> *SIR BRAVIN-HACKING-COMPLETE ☣*'
+            '> *★彡[ꜱɪʀ ᴛ20]彡★-HACKING-COMPLETE ☣*'
         ];
 
         for (const line of steps) {
@@ -55,3 +55,4 @@ async (conn, mek, m, {
         reply(`❌ *Error:* ${e.message}`);
     }
 });
+ 
