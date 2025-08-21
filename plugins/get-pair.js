@@ -7,7 +7,7 @@ cmd({
     react: "✅",
     desc: "Get pairing code for toxic lover+v2 xmd bot",
     category: "download",
-    use: ".pair 25471726XXX",
+    use: ".pair 2557684XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -16,7 +16,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +254717263XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +25576841XXX");
         }
 
         // Make API request to get pairing code
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *Toxic lover-v2 xmd PAIRING COMPLETED*";
+        const doneMessage = "> *𝔗𝔈ℜ𝕄𝕀ℕ𝔸𝔗𝕆ℝ xmd PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -49,9 +49,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for toxic lover bot",
+    desc: "Get pairing code for 𝔗𝔈ℜ𝕄𝕀ℕ𝔸𝔗𝕆ℝ bot",
     category: "download",
-    use: ".pair 254717263XXX",
+    use: ".pair 25562560XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *toxic lover-v2 xmd PAIRING COMPLETED*";
+        const doneMessage = "> *𝔗𝔈ℜ𝕄𝕀ℕ𝔸𝔗𝕆ℝ xmd PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
