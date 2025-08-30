@@ -18,7 +18,7 @@ const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
 
-const category = "Fredi-Wa-Crush";
+const category = "bravin-Crush";
 const reaction = "🤯";
 
 const mess = {};
@@ -117,7 +117,7 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 ezra(
     {
-        nomCom: "fredi-crush",
+        nomCom: "bravin crush",
         categorie: category,
         reaction: reaction
     },
@@ -173,7 +173,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+                                        "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
