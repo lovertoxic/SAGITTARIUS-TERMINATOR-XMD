@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <defs>
+    <clipPath id="circleClip1"><circle cx="25" cy="30" r="14"/></clipPath>
+    <clipPath id="circleClip2"><circle cx="55" cy="30" r="14"/></clipPath>
+
+    <!-- Rounded rectangle path -->
+    <path id="circlePath" d="
+      M 20,10 h 180 a 10,10 0 0 1 10,10 v 20 
+      a 10,10 0 0 1 -10,10 h -180 
+      a 10,10 0 0 1 -10,-10 v -20 
+      a 10,10 0 0 1 10,-10 z" />
+
+    <linearGradient id="rainbowGradient">
+      <stop offset="0%" stop-color="red"/>
+      <stop offset="16%" stop-color="orange"/>
+      <stop offset="33%" stop-color="yellow"/>
+      <stop offset="50%" stop-color="green"/>
+      <stop offset="66%" stop-color="blue"/>
+      <stop offset="83%" stop-color="indigo"/>
+      <stop offset="100%" stop-color="violet"/>
+    </linearGradient>
+
+    <style>
+      .dot { r: 4; }
+      .spinner-line { stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background button -->
+  <rect x="10" y="10" width="200" height="40" rx="10" fill="#00C6A2"/>
+
+  <!-- Spinning outline -->
+  <path class="spinner-line" d="M20,10 h180 a10,10 0 0 1 10,10 v20 a10,10 0 0 1 -10,10 h-180 a10,10 0 0 1 -10,-10 v-20 a10,10 0 0 1 10,-10 z">
+    <animate attributeName="stroke" values="red;orange;yellow;green;blue;indigo;violet;red" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Dots -->
+  <circle class="dot" fill="url(#rainbowGradient)">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#circlePath"/>
+    </animateMotion>
+  </circle>
+  <circle class="dot" fill="url(#rainbowGradient)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto-reverse">
+      <mpath href="#circlePath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- FEZ Circle -->
+  <circle cx="25" cy="30" r="14" fill="white"/>
+  <text x="25" y="34" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="#00C6A2" font-weight="bold">FEZ</text>
+
+  <!-- Re Circle -->
+  <circle cx="55" cy="30" r="14" fill="white"/>
+  <text x="55" y="34" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="#00C6A2" font-weight="bold">Tal</text>
+
+  <!-- Deploy to Render Text -->
+  <text x="80" y="35" font-family="Arial,sans-serif" font-size="16" fill="white" font-weight="bold">Deploy to Talkdro</text>
+</svg>
