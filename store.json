@@ -1,0 +1,7 @@
+{
+  "messages": {
+    "jid@example.net": [
+      { "key": { "id": "XYZ" }, "message": {...} }
+    ]
+  }
+}
