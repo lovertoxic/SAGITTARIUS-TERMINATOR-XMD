@@ -155,7 +155,7 @@
   </p>
 
 ```diff
-+ Project Status: Active
++ Project Status: Active  sir bravine
 ! Version: 3.0.0 Neon Edition
 # License: APACHE
 ```
