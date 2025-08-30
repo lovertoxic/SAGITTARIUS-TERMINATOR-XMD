@@ -71,7 +71,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "⁠LUCKY-MD-XFORCE",
+      "value": "TERMINATOR",
       "required": false 
     },
     "PUBLIC_MODE": {
