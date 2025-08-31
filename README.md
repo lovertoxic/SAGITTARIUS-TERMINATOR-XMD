@@ -74,7 +74,7 @@
   
   ---
   <p style="color: #aaaaaa; font-size: 12px; margin-top: 10px;">
-    <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/warning.gif?raw=true" width="15"/> 
+    <img src="https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD/blob/main/assets/warning.gif?raw=true" width="15"/> 
     Connection issues may require VPN activation
   </p>
 </div>
@@ -82,7 +82,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+  <img src="https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=TOXIC+LOVER-V2+XMD;DEPLOYMENT+SIGHT"alt="Animated
@@ -90,12 +90,12 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
       <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=toxiclover-tech/TOXIC-LOVER-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://render.com/deploy?repo=https://github.com/toxiclover-tech/TOXIC-LOVER-MD" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+      <td><a href="https://render.com/deploy?repo=https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
       <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
   </table>
@@ -106,7 +106,7 @@
   </a>
 
 <div align="center">
-  <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
+  <img src="https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
 </div>
 
 <p align="center">
