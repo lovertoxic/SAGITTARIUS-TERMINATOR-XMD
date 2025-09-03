@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: TERMINATOR
+    name: LUCKY-MD-XFORCE
     env: node # Change to "python" or your environment if not Node.js
     plan: free
     buildCommand: npm install 
