@@ -1,3 +1,175 @@
+//bravin 🩸
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "use strict";
 const { ezra } = require("../fredi/ezra");
 const moment = require("moment-timezone");
@@ -26,8 +198,8 @@ const toFancyLowercaseFont = (text) => {
 
 ezra({ 
     nomCom: "menu", 
-    categorie: "ter-Menu", 
-    reaction: "☢️", 
+    categorie: "bravo-Menu", 
+    reaction: "🏹", 
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
     const { repondre, prefixe, nomAuteurMessage } = commandeOptions;
@@ -44,7 +216,7 @@ ezra({
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Africa/Dar_Es_Salam");
+    moment.tz.setDefault("Africa/Nairobi");
     const hour = moment().hour();
     let greeting = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ";
     if (hour >= 12 && hour < 18) greeting = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ!";
@@ -53,17 +225,18 @@ ezra({
 
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
-    const img = 'https://files.catbox.moe/5x1y2z.png';
-    const imgs = 'https://files.catbox.moe/5x1y2z.png';
+    const img = 'https://files.catbox.moe/3q50d1.jpg';
+    const imgs = 'https://files.catbox.moe/cu752j.jpg';
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️ TERMINATOR ☢️*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 JEEPERS CREEPER-XMD 🏹*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
+*┋*made in kenya: Eldoret 
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : FREDI*
+*┋* *ᴏᴡɴᴇʀ ɪs : sir bravin*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -75,31 +248,31 @@ ezra({
 ╭───┈┈┈┈────⊷ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-*┋* ${toFancyLowercaseFont(cmd)}`;   
+*┋> ${toFancyLowercaseFont(cmd)}`;   
         }
         menuMsg += `
 ╰───┈┈┈┈────⊷`;
     }
     
     menuMsg += `
-> @made by  SIR 2025\n`;
+> @made by sir bravin 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
-            image: { url: "https://files.catbox.moe/uw4l17.jpeg" },
+            image: { url: "https://files.catbox.moe/3q50d1.jpg" },
             caption: infoMsg + menuMsg,
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363420222821450@newsletter",
-                    newsletterName: "@terminator",
+                    newsletterJid: "120363366284524544@newsletter",
+                    newsletterName: "JEEPERS CREEPER-XMD",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "☢️ TERMINATOR ☢️",
+                    title: "🏹 JEEPERS CREEPER-XMD 🏹",
                     body: "🔑🗝️ Command List",
-                    thumbnailUrl: "https://files.catbox.moe/3o37c5.jpeg",
+                    thumbnailUrl: "https://files.catbox.moe/cu752j.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
                     mediaType: 1,
                     renderLargerThumbnail: true

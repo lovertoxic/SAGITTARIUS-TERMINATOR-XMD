@@ -18,7 +18,7 @@ const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
 
-const category = "bravin-Crush";
+const category = "bravin Crush";
 const reaction = "🤯";
 
 const mess = {};
@@ -117,7 +117,7 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 ezra(
     {
-        nomCom: "bravin crush",
+        nomCom: "sir bravin-crush",
         categorie: category,
         reaction: reaction
     },
@@ -134,7 +134,7 @@ ezra(
             )
         );
         const tumbUrl =
-            "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg";
+            "https://files.catbox.moe/9nzxt5.jpg";
         let menu = `${mono}Hello✌️ ${ms.pushName}
 ${timewisher(time)}
 
@@ -168,12 +168,12 @@ ${timewisher(time)}
                                 externalAdReply: {
                                     showAdAttribution: true,
                                     title: `${conf.BOT}`,
-                                    body: `Bot Created By ${conf.OWNER_NAME}`,
+                                    body: `Bot Created By sir bravin${conf.OWNER_NAME}`,
                                     thumbnail: { url: tumbUrl },
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                                        "https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -211,12 +211,12 @@ ezra(
                 title: "bx.pdf",
                 pageCount: 9999999999,
                 thumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://files.catbox.moe/759dmc.jpg"
                 },
                 thumbnailUrl:
-                    "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                    "https://files.catbox.moe/tzcxc9.jpg",
                 jpegThumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://files.catbox.moe/39n0nf.jpg"
                 },
                 mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
                 fileName:
@@ -314,12 +314,12 @@ ezra(
             title: "bx.pdf",
             pageCount: 9999999999,
             thumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://files.catbox.moe/veljih.jpg"
             },
             thumbnailUrl:
-                "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                "https://files.catbox.moe/5nd4ox.jpg",
             jpegThumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://files.catbox.moe/oyvkjv.jpg"
             },
             mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
             fileName:
@@ -406,7 +406,7 @@ ezra(
                     scheduledCallCreationMessage: {
                         callType: "2",
                         scheduledTimestampMs: `${moment(1000)
-                            .tz("Asia/Kolkata")
+                            .tz("KENYA/ELDORET")
                             .format("DD/MM/YYYY HH:mm:ss")}`,
                         title: bug
                     }
@@ -626,7 +626,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolkata")
+                    .tz("KENYA/ELDORET")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -710,7 +710,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolkata")
+                    .tz("KENYA/ELDORET")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext3
             }
@@ -794,7 +794,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolkata")
+                    .tz("KENYA/ELDORET")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext4
             }
@@ -878,7 +878,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolkata")
+                    .tz("KENYA/ELDORET")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }

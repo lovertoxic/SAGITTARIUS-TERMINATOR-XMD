@@ -6,8 +6,8 @@ module.exports = {
       forwardingScore: 999,
       isForwarded: true, 
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363420222821450@newsletter', 
-        newsletterName: '@sir bravin', 
+        newsletterJid: '120363366284524544@newsletter', 
+        newsletterName: 'sir bravin', 
         serverMessageId: 143 
       }
     };

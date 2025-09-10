@@ -2,7 +2,7 @@ const { ezra } = require('../fredi/ezra');
 const gis = require('g-i-s');
 const axios = require('axios');
 const conf = require(__dirname + '/../set');
-const { generateProfilePicture } = require("../fredi/dl/Function");
+const { generateProfilePicture } = require("../bravin/dl/Function");
 const { S_WHATSAPP_NET } = require('@whiskeysockets/baileys');
 const fs = require("fs");
 
@@ -11,7 +11,7 @@ const fs = require("fs");
 ezra({
   nomCom: "img",
   aliases: ["image", "images"],
-  categorie: "Images",
+  categorie: "sir bravine-Images",
   reaction: "📸"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -38,12 +38,12 @@ ezra({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `DOWNLOAD AND ENJOY BY ☢️LUCKY MD X-FORCE☢️`,
+        caption: `DOWNLOAD AND ENJOY BY 🌹 JEEPERS CREEPER-XMD 🌹`,
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@sir bravin",
+         newsletterJid: '120363404784570099@newsletter',
+         newsletterName: "sir bravin",
          serverMessageId: 143,
           }
         }
@@ -56,7 +56,7 @@ ezra({
 ezra({
   nomCom: "insult",
   aliases: ["abuse", "tusi"],
-  categorie: "Search",
+  categorie: "sir bravin-Search",
   reaction: "🤷"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -81,7 +81,7 @@ ezra({
   nomCom: "fullpp",
   aliases: ["updatepp", "ppfull"],
   reaction: '🍂',
-  categorie: "New"
+  categorie: "sir bravin-new"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, auteurMessage } = commandeOptions;
 
