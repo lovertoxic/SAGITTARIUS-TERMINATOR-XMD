@@ -5,7 +5,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=jeepers+creeper+xmd;released+on+3th+August;by+sir+bravin;made+in+kenya🇰🇪+Eldoret" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=TERMINATOR+xmd;released+on+3th+August;by+sir+ARNOLDT20;made+in+ARUSHA+TANZANIA" alt="Typing Animation">
 
 ## Hi there 👋
 <p align="center">
@@ -17,12 +17,12 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹sir+T20classic:the+TERMINATOR+xmd+bot❣️❣️❣️" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹sir+ARNOLDT20:TERMINATOR+xmd+bot❣️❣️❣️" alt="Typing Animation">
 
 </h1>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=pair+site" alt="Typing SVG" /></a>
   </div>
-<td><a href="https://jeepers-creepers-xmd-session-link-1.onrender.com" target="_blank"><img src="https://img.shields.io/badge/jeepescreepersession-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+<td><a href="https://jeepers-creepers-xmd-session-link-1.onrender.com" target="_blank"><img src="https://img.shields.io/badge/TERMINATORSESSION-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
 
  ### 📤 Deployment Options
@@ -59,14 +59,14 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/toxiclover-tech/TOXIC-LOVER-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
+  <img src="https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=THE+TERMINATOR-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=TERMINATOR-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
 
 <div align="center">
-  <img src="https://github.com/black-spider436/jeepers-creeper-xmd  /blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
+  <img src="https://github.com/lovertoxic/SAGITTARIUS-TERMINATOR-XMD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
 </div>
 
 description of sir bravin
