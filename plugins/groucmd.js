@@ -68,7 +68,7 @@ const {
   }
   let _0xc8dec2 = _0x1fd727.participants;
   if (!_0x3e9fea[0x0]) {
-    return _0x132613("Provide number to be added. Example:\nadd 2547XXXXX689");
+    return _0x132613("Provide number to be added. Example:\nadd 2557XXXXX689");
   }
   let _0x4cb0cb = _0x3e9fea.join(" ");
   const _0x5abc4d = _0xc8dec2.map(_0xd268e8 => _0xd268e8.id);
@@ -480,10 +480,10 @@ ezra({
     let _0x4a6ecd = '';
     for (let _0x269fcd of _0x267c2d) {
       let _0x23a8f8 = _0x269fcd.id.split('@')[0x0];
-      let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[JEEPERS CREEPER-XMD] +" + _0x23a8f8;
+      let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD] +" + _0x23a8f8;
       _0x4a6ecd += "BEGIN:VCARD\nVERSION:3.0\nFN:" + _0x5838c2 + "\nTEL;type=CELL;type=VOICE;waid=" + _0x23a8f8 + ':+' + _0x23a8f8 + "\nEND:VCARD\n";
     }
-    await _0x2e5b52("A moment, *JEEPERS CREEPER-XMD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
+    await _0x2e5b52("A moment, *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
     await _0x511dab.writeFileSync("./contacts.vcf", _0x4a6ecd.trim());
     await _0xbcbdad.sendMessage(_0x1ec21c, {
       'document': _0x511dab.readFileSync("./contacts.vcf"),

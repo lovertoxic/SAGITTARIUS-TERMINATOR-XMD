@@ -406,7 +406,7 @@ let menuMsg = `
                     title: "☢️terminator☢️",
                     body: "Quran verses List",
                     thumbnailUrl: "https://files.catbox.moe/3o37c5.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

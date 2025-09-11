@@ -74,7 +74,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@sir",
+         newsletterName: "@sir t20",
          serverMessageId: 143,
         },
       },

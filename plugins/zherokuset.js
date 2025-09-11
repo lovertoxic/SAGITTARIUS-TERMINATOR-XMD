@@ -59,7 +59,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreact',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -140,13 +140,13 @@ ezra({
 });
 ezra({
   nomCom: 'antidelete',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -181,7 +181,7 @@ ezra({
 
 ezra({
   nomCom: 'autodownloadstatus',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -222,7 +222,7 @@ ezra({
 
 ezra({
   nomCom: 'startingmessage',
-  categorie: "DAVINCS-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -263,13 +263,13 @@ ezra({
 
 ezra({
   nomCom: 'autoreadmessage',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -304,13 +304,13 @@ ezra({
 
 ezra({
   nomCom: 'pm-permit',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -384,13 +384,13 @@ ezra({
 });
 ezra({
   nomCom: 'autoreply',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -425,13 +425,13 @@ ezra({
 
 ezra({
   nomCom: 'autobio',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMDr.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -466,13 +466,13 @@ ezra({
 
 ezra({
   nomCom: 'publicmode',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -507,13 +507,13 @@ ezra({
 
 ezra({
   nomCom: 'autorecord',
-  categorie: "JEEPERS CREEPERS-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Lucky owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -548,13 +548,13 @@ ezra({
 
 ezra({
   nomCom: 'autotyping',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMDr.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -589,13 +589,13 @@ ezra({
 
 ezra({
   nomCom: 'alwaysonline',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly

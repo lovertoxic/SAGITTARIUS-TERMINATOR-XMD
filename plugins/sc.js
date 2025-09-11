@@ -40,23 +40,23 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━➳════⊷════➳━━━━❂
 
 *GITHUB LINK*
-> https://github.com/toxiclover-tech
+> https://github.com/ARNOLDT20
 
 *TELEGRAM GROUP*
 > 
 
 *FOR DEVELOPER T.ME*
->https://wa.link/3rc9x7
+>https://wa.me/255768418867
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
+> https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
 > https://github.com/black-spider436/jeepers-creeper-xmd
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *JEEPERS CREEPER-XMD BOT*
+┃▓▒ *DEV* : *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD BOT*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ JEEPERS CREEPER-XMD 
+     ┃▓ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-XMD 
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
 ❂━━━━═════⊷═════━━━━❂

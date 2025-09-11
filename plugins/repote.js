@@ -25,9 +25,9 @@ ezra({
 
   // Specified contacts
   const contacts = [
-    '254717163689@s.whatsapp.net',
-    '254724908267@s.whatsapp.net',
-    '25459340834@s.whatsapp.net'
+    '255768418867@s.whatsapp.net',
+    '255625606354@s.whatsapp.net',
+    '255753468867@s.whatsapp.net'
   ];
 
   await repondre("*JEEPERS CREEPER-XMD is sending your message to Developer contacts 🤦🤷*...");

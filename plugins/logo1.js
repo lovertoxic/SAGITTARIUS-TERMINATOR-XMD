@@ -70,7 +70,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "🍂 JEEPERS CREEPER-XMD",
+        title: "🍂 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD",
         body: "Regards, ",
         thumbnailUrl: "https://files.catbox.moe/mtky7d.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
@@ -258,7 +258,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
         if (logoUrl) {
           await zk.sendMessage(dest, {
             image: { url: logoUrl },
-            caption: `*Created logo by JEEPERS CREEPER-XMD*`,
+            caption: `*Created logo by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`,
           }, { quoted: ms });
         }
       }

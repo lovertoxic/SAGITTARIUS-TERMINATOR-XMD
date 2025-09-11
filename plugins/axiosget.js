@@ -21,7 +21,7 @@ ezra({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD TECH NEWS",
+          title: "T20 CLASSIC TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -81,7 +81,7 @@ ezra({
     
     const data = response.data;
     const messageText = `
-ᕙ⁠ *JEEPERS CREEPER-XMD HOLY BIBLE* ᕗ
+ᕙ⁠ *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD HOLY BIBLE* ᕗ
 
 ✿⁠ *_WE'RE READING:_* ${data.reference}
 
@@ -91,14 +91,14 @@ ezra({
 
 ✿⁠ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-│ *_Powered by jeepers creeper-xmd${conf.OWNER_NAME}*
+│ *_Powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-xmd${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD HOLY BIBLE",
+          title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/8ms53d.jpg", 
@@ -153,7 +153,7 @@ ezra({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD DICTIONARY",
+            title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/fcb1no.jpg", 
@@ -187,7 +187,7 @@ ezra({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Wait JEEPERS CREEPERS-XMD is getting your pair code 🍼✅...*";
+    const replyText = "*Wait 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD is getting your pair code 🍼✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -204,7 +204,7 @@ ezra({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD PAIR CODE",
+            title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -265,7 +265,7 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD ELEMENT INFORMATION",
+          title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -324,7 +324,7 @@ ezra({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD GITHUB USER INFO",
+          title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ ezra({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by JEEPERS CREEPER-XMD 
+> Powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD 
     `;
     repondre(texa);
   } catch (err) {

@@ -19,7 +19,7 @@ ezra({
       return repondre("❌ Error fetching joke. Please try again later.");
     }
 
-    let jokeMessage = `😂 *JEEPERS CREEPER-XMD random Joke:*\n\n${data.joke}\n\n`;
+    let jokeMessage = `😂 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD random Joke:*\n\n${data.joke}\n\n`;
     jokeMessage += `🤷 *Category:* ${data.category}\n`;
     jokeMessage += `🤭 *Safe:* ${data.safe}\n`;
     jokeMessage += `*ID:* ${data.id}\n`;
@@ -50,7 +50,7 @@ ezra({
       return repondre("❌ Error fetching joke. Please try again later.");
     }
 
-    let jokeMessage = `😂 *JEEPERS CREEPER-XMD random Joke:*\n\n${data.joke}\n\n`;
+    let jokeMessage = `😂 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD random Joke:*\n\n${data.joke}\n\n`;
     jokeMessage += `🤷 *Category:* ${data.category}\n`;
     jokeMessage += `🤭 *Safe:* ${data.safe}\n`;
     jokeMessage += `*ID:* ${data.id}\n`;
@@ -80,7 +80,7 @@ ezra({
       return repondre("❌ Error fetching joke. Please try again later.");
     }
 
-    let jokeMessage = `😂 *JEEPERS CREEPER-XMD random Joke:*\n\n${data.joke}\n\n`;
+    let jokeMessage = `😂 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD random Joke:*\n\n${data.joke}\n\n`;
     jokeMessage += `🤷 *Category:* ${data.category}\n`;
     jokeMessage += `🤭 *Safe:* ${data.safe}\n`;
     jokeMessage += `*ID:* ${data.id}\n`;

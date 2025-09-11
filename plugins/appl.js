@@ -45,7 +45,7 @@ ezra({
       document: { url: appDetails.BK9.dllink },
       fileName: `${appDetails.BK9.name}.apk`,
       mimetype: "application/vnd.android.package-archive",
-      caption: `APPLICATION DOWLODED BY ☢️LUCKY MD X-FORCE☢️`,
+      caption: `APPLICATION DOWLODED BY ☢️T20 CLASSIC X-FORCE☢️`,
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
@@ -159,7 +159,7 @@ ezra({
       document: { url: apiUrl },
       fileName: `${fileName}.zip`,
       mimetype: "application/zip",
-      caption: `GITHUB ZIP BY ☢️ terminatar☢️`,
+      caption: `GITHUB ZIP BY ☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂☢️`,
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {

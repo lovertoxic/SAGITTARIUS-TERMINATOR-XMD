@@ -79,7 +79,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by ☢️ JEEPERS CREEPER-XMD ☢️ Planet*`,
+            caption: `> *Downloaded by ☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️ Planet*`,
           }, { quoted: ms });
         }
       }

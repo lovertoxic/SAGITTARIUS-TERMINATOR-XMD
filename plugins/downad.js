@@ -16,7 +16,7 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
     newsletterJid: "120363404784570099@newsletter",
-    newsletterName: "JEEPERS CREEPER-XMD",
+    newsletterName: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD",
     serverMessageId: Math.floor(100000 + Math.random() * 900000),
   },
   externalAdReply: {
@@ -78,7 +78,7 @@ async function downloadFromApis(apis) {
 ezra({
   nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
-  categorie: "jeepers creeper xmd-Download",
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-Download",
   reaction: "🎵"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
@@ -136,7 +136,7 @@ ezra({
 ezra({
   nomCom: "video2",
   aliases: ["videodoc", "film", "mp4"],
-  categorie: "jeepers creeper-xmd-Download",
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-Download",
   reaction: "🎥"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
@@ -193,7 +193,7 @@ ezra({
 // URL upload command
 ezra({
   nomCom: 'url-link',
-  categorie: "jeepers creeper-xmd-Download",
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-Download",
   reaction: '👨🏿‍💻'
 }, async (dest, zk, commandOptions) => {
   const { msgRepondu, userJid, ms } = commandOptions;

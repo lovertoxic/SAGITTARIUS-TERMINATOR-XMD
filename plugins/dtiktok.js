@@ -4,7 +4,7 @@ const axios = require("axios");
 ezra({
   nomCom: "tiktoksearch",
   aliases: ["tiksearch", "tiktoklist"],
-  categorie: "JEEPERS CREEPER-XMD",
+  categorie: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD",
   reaction: "📽️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `JEEPERS CREEPER-XMD PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD PLANET TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -53,7 +53,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363404784570099@newsletter',
-         newsletterName: "@sir bravin",
+         newsletterName: "@sir ARNOLDT20",
          serverMessageId: 143,
           },
         },

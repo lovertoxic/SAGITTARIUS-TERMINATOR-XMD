@@ -37,16 +37,16 @@ ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃⊛│◆ 𝙼𝚘𝚍𝚎 : *${mode}*
 ┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
 ┃⊛│◆ 𝙳𝚊𝚝𝚎  : *${date}*
-┃⊛│◆ made::::in Kenya/Eldoret 
+┃⊛│◆ made::::in Tanzania/Arusha 
 ┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : JEEPERS CREEPER-XMD TECH
+┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : T20 classic TECH
 ┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : TOXIC LOVER DEVELOPER https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD DEVELOPER https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d
 ┃⊛└────••••────➻
 ╰─━━━━══──══━━━❂\n${readmore}
 `;
 
-    let menuMsg = `JEEPERS CREEPER-XMD 𝙲𝚖𝚍`;
+    let menuMsg = `乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD 𝙲𝚖𝚍`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -72,10 +72,10 @@ ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "JEEPERS CREEPER-XMD MENU LIST",
+                    title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD MENU LIST",
                     body: "Dont worry  I have more tap to follow",
                     thumbnailUrl: "https://files.catbox.moe/uoxzsc.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o",
+                    sourceUrl: " https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

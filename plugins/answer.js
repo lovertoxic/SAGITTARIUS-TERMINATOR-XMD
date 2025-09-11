@@ -73,7 +73,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
     }
   });
   
-  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "T20 CLASSIC-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "T20 CLASSIC-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {

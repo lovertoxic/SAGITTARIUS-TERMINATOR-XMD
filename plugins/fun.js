@@ -84,7 +84,7 @@ ezra({
     const imdbData = response.data;
 
     let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbInfo += " ``` lMDB SEARCH BY sir bravin``\n";
+    imdbInfo += " ```lMDB SEARCH BY 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD``\n";
     imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";

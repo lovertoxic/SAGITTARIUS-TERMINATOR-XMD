@@ -14,22 +14,22 @@ ezra(
       console.log('DEBUG - setvar triggered:', { arg, superUser });
 
       if (!superUser) {
-        return repondre(`terminator says only owner or sir bravin can use this command 🚫`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD says only owner or T20 CLASSIC can use this command 🚫`);
       }
 
       if (!arg[0] || !arg.join(' ').includes('=')) {
-        return repondre(`terminator\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈\n│❒ Use this Format it right, like: .setvar OWNER_NUMBER=255752593977\n╰┈┈┈┈┈┈┈┈┈┈┈┈`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈\n│❒ Use this Format it right, like: .setvar OWNER_NUMBER=255752593977\n╰┈┈┈┈┈┈┈┈┈┈┈┈`);
       }
 
       const text = arg.join(' ').trim();
       const [key, value] = text.split('=').map(str => str.trim());
 
       if (!key || !value) {
-        return repondre(`LUCKY-MD-XFORCE says STOP WASTING MY TIME! Provide a valid KEY=VALUE pair!🙂‍↔️`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD says STOP WASTING MY TIME! Provide a valid KEY=VALUE pair!🙂‍↔️`);
       }
 
       if (!s.HEROKU_API_KEY || !s.HEROKU_APP_NAME) {
-        return repondre(`terminator says CONFIG ERROR! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Fix it now!`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD says CONFIG ERROR! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Fix it now!`);
       }
 
       const Heroku = require("heroku-client");
@@ -44,7 +44,7 @@ ezra(
 
     } catch (error) {
       console.error('setvar error:', error);
-      await repondre(`LUCKY-MD-XFORCE FAIL! Something broke: ${error.message} 😴 Fix it or suffer!`);
+      await repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD FAIL! Something broke: ${error.message} 😴 Fix it or suffer!`);
     }
   }
 );
@@ -62,11 +62,11 @@ ezra(
       console.log('DEBUG - allvar triggered:', { superUser });
 
       if (!superUser) {
-        return repondre(`terminator says only owner or sir bravin can use this command 🚫`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD says only owner or T20 CLASSIC can use this command 🚫`);
       }
 
       if (!s.HEROKU_API_KEY || !s.HEROKU_APP_NAME) {
-        return repondre(`terminator CONFIG DISASTER! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Sort it out! 🙂‍↕️`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD CONFIG DISASTER! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Sort it out! 🙂‍↕️`);
       }
 
       const Heroku = require("heroku-client");
@@ -74,7 +74,7 @@ ezra(
       const baseURI = `/apps/${s.HEROKU_APP_NAME}`;
 
       const vars = await heroku.get(`${baseURI}/config-vars`);
-      let str = `terminator VARS\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`;
+      let str = `乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD VARS\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n`;
       for (const vr in vars) {
         str += `🛒 *${vr}* = ${vars[vr]}\n`;
       }
@@ -84,7 +84,7 @@ ezra(
 
     } catch (error) {
       console.error('allvar error:', error);
-      await repondre(`terminator\nCRASH AND BURN! Error: ${error.message} 😡 Get it together!`);
+      await repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD\nCRASH AND BURN! Error: ${error.message} 😡 Get it together!`);
     }
   }
 );
@@ -102,7 +102,7 @@ ezra(
       console.log('DEBUG - getvar triggered:', { arg, superUser });
 
       if (!superUser) {
-        return repondre(`terminator says only owner or sir bravin can use this command 🚫`);
+        return repondre(`terminator says only owner or T20 CLASSIC can use this command 🚫`);
       }
 
       if (!arg[0]) {
@@ -112,7 +112,7 @@ ezra(
       const varName = arg.join(' ').trim().toUpperCase();
 
       if (!s.HEROKU_API_KEY || !s.HEROKU_APP_NAME) {
-        return repondre(`terminator\nCONFIG FAILURE! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Fix it! 😵`);
+        return repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD\nCONFIG FAILURE! HEROKU_API_KEY or HEROKU_APP_NAME missing in set.js! Fix it! 😵`);
       }
 
       const Heroku = require("heroku-client");
@@ -121,14 +121,15 @@ ezra(
 
       const vars = await heroku.get(`${baseURI}/config-vars`);
       if (vars[varName]) {
-        await repondre('terminator\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n│❒ GOT IT! ${varName} = ${vars[varName]} 🚀\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈`);
-      } else {
+        await repondre('乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD\n\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n│❒ GOT IT! ${varName} = ${vars[varName]} 🚀\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈`);
+        );
+        } else {
         await repondre(`NOPE! Variable ${varName} doesn't exist, try again!`);
       }
 
     } catch (error) {
       console.error('getvar error:', error);
-      await repondre(`LUCKY-MD-XFORXE\nTOTAL FAILURE! Error: ${error.message} 😡 Fix this mess!`);
+      await repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD\nTOTAL FAILURE! Error: ${error.message} 😡 Fix this mess!`);
     }
   }
 );

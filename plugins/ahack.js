@@ -12,7 +12,7 @@ ezra({
     prefixe: _0x1e90cb
   } = _0x2bf6f3;
   try {
-    const _0x3c1805 = ["```⚡ JEEPERS CREEPER-XMD Injecting malware⚡```", "```🔐 JEEPERS CREEPER-XMD into device \n 0%```", "```♻️ transfering photos \n █ 10%```", "```♻️ transfer successful \n █ █ 20%```", "```♻️ transfering videos \n █ █ █ 30%```","```♻️ transfer successful \n █ █ █ █ 40%```","```♻️ transfering audio \n █ █ █ █ █ 50%```","```♻️ transfer successful \n █ █ █ █ █ █ 60%```","```♻️ transfering hidden files \n █ █ █ █ █ █ █ 70%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ 80%```","```♻️ transfering whatsapp chat \n █ █ █ █ █ █ █ █ █ 90%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%```","```📲 System hyjacking on process.. \n Conecting to Server```","```🔌 JEEPERS CREEPER-XMD successfully connected... \n Riciving data...```","```💡 Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```","```🔋 HACKING COMPLETED ```","```📤 SENDING ALL PHONE DOCUMENTS```"];
+    const _0x3c1805 = ["```⚡ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD Injecting malware⚡```", "```🔐 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD into device \n 0%```", "```♻️ transfering photos \n █ 10%```", "```♻️ transfer successful \n █ █ 20%```", "```♻️ transfering videos \n █ █ █ 30%```","```♻️ transfer successful \n █ █ █ █ 40%```","```♻️ transfering audio \n █ █ █ █ █ 50%```","```♻️ transfer successful \n █ █ █ █ █ █ 60%```","```♻️ transfering hidden files \n █ █ █ █ █ █ █ 70%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ 80%```","```♻️ transfering whatsapp chat \n █ █ █ █ █ █ █ █ █ 90%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%```","```📲 System hyjacking on process.. \n Conecting to Server```","```🔌 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD successfully connected... \n Riciving data...```","```💡 Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```","```🔋 HACKING COMPLETED ```","```📤 SENDING ALL PHONE DOCUMENTS```"];
     for (const _0x4c7ce1 of _0x3c1805) {
       try {
         await _0x988825(_0x4c7ce1);
@@ -38,7 +38,7 @@ ezra({
       }
     }
     try {
-      await _0x988825("😏 *VICTIM SYSTEM JEEPERS CREEPER-XMD DEMOLISHED!* 🤔");
+      await _0x988825("😏 *VICTIM SYSTEM 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD DEMOLISHED!* 🤔");
     } catch (_0x34d0ce) {
       console.error("Error sending final message:", _0x34d0ce);
     }

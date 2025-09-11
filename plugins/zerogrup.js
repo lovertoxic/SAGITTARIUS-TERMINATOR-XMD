@@ -61,10 +61,10 @@ ezra({ nomCom: "getallmembers", categorie: 'sir bravo-Group', reaction: "📣" }
   let mess = Array.isArray(arg) && arg.length ? arg.join(' ') : 'No message provided';
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
-  let tag = `☢️JEEPERS CREEPERS XMD ☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
+  let tag = `☢️乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
-> regards frediezra®\n\n`;
+> regards t20classic®\n\n`;
 
   const emoji = ['💡', '☢️', '🗡️', '🖌️', '🪫', '🔋', '⚙️', '🕶️', '🌡️', '✏️', '📌', '©️', '$','®️','™️','⚔️','🔏'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
@@ -107,7 +107,7 @@ ezra({ nomCom: "tagall", categorie: 'Fredi-Group', reaction: "📯" }, async (de
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
-        🌟 *JEEPERS CREEPER XMD TAGS* 🌟
+        🌟 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -149,7 +149,7 @@ ezra({ nomCom: "link", categorie: 'sir bravo-Group', reaction: "🚜" }, async (
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️jeepers creeper xmd ☢️`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️`
   repondre(mess)
 
 
@@ -417,7 +417,7 @@ ezra({ nomCom: "info", categorie: 'sir bravo-Group' }, async (dest, zk, commande
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `☢️ jeepers creeper xmd ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 
@@ -736,7 +736,7 @@ ezra({nomCom:"tag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,co
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -844,7 +844,7 @@ ezra({nomCom:"hidetag",categorie:'sir bravin-Group',reaction:"🎤"},async(dest,
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -952,7 +952,7 @@ ezra({nomCom:"htag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,c
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",

@@ -47,7 +47,7 @@ ezra({
         console.log("Owner mentioned:", ownerJid); // Debug log if owner is detected
         // Send a warning message to the group or chat
         await zk.sendMessage(origineMessage.key.remoteJid, {
-          text: "⚠️ *DON'T TAG MY OWNER! JEEPERS CREEPERS-XMD*",
+          text: "⚠️ *DON'T TAG MY OWNER! 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*",
           mentions: [origineMessage.key.participant],
         });
       }

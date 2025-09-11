@@ -11,7 +11,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -42,7 +42,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -73,7 +73,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPERS-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -104,7 +104,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -136,7 +136,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -167,7 +167,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -199,7 +199,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot take by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot take by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -231,7 +231,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -262,7 +262,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -294,7 +294,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -325,7 +325,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -356,7 +356,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -388,7 +388,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -420,7 +420,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by J乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -452,7 +452,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -484,7 +484,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by JEEPERS CREEPER-XMD*`;
+    const cap = `*Screenshot taken by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -537,7 +537,7 @@ ezra({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `*Downloaded by JEEPERS CREEPER-XMD${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -572,7 +572,7 @@ ezra({
       const image = images[randomImage];
       await zk.sendMessage(dest, {
         image: { url: image },
-        caption: `*Downloaded by JEEPERS CREEPER-XMD${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Modern-Logo Search Result",
@@ -605,7 +605,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by JEEPERS CREEPER-XMD${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -637,7 +637,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by JEEPERS CREEPER-XMD ${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -669,7 +669,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -701,7 +701,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by JEEPERS CREEPER-XMD${conf.BOT}*`,
+        caption: `*Downloaded by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -755,7 +755,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/sadcat?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by DAVINCS-MD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -778,7 +778,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/nokia?image=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by DAVINCS-MD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -801,7 +801,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/unforgivable?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -824,7 +824,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/pooh?text1=&text2=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -847,7 +847,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/oogway?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -870,7 +870,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/biden?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by DAVINCS-MD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -892,7 +892,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/drip?image=${arg.join(" ")}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -915,7 +915,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/clown?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -941,7 +941,7 @@ ezra({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by DAVINCS-MD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, {
       'quoted': messageInstance
     });
@@ -960,7 +960,7 @@ ezra({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please insert the image URL and JEEPERS CREEPERS-XMD will extract the text for you.");
+      return sendMessage("Please insert the image URL and 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD will extract the text for you.");
     }
     const imageUrl = args.join(" ");
     const extractedTextUrl = "https://www.samirxpikachu.run.place/extract/text?url=" + imageUrl;
@@ -968,7 +968,7 @@ ezra({
       'image': {
         'url': extractedTextUrl
       },
-      'caption': "*powered by JEEPERS CREEPER-XMD TECH*"
+      'caption': "*powered by T20 CLASSIC TECH*"
     }, {
       'quoted': messageInstance
     });
@@ -987,7 +987,7 @@ ezra({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please describe your image and JEEPERS CREEPERS-XMD will generate it.");
+      return sendMessage("Please describe your image and 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD will generate it.");
     }
     const prompt = args.join(" ");
     const generatedImageUrl = "https://www.samirxpikachu.run.place/flux?prompt=" + prompt;
@@ -995,7 +995,7 @@ ezra({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by DAVINCS-MD*"
+      'caption': "*powered by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*"
     }, {
       'quoted': messageInstance
     });
@@ -1016,7 +1016,7 @@ ezra({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please describe your image and DAVINCS-MD will generate it.");
+      return sendMessage("Please describe your image and 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD will generate it.");
     }
     const prompt = args.join(" ");
     const generatedImageUrl = "https://www.samirxpikachu.run.place/multi/Ml?prompt=" + prompt;
@@ -1051,7 +1051,7 @@ ezra({
       'image': {
         'url': beautifiedImageUrl
       },
-      'caption': "*powered by JEEPERS CREEPER-XMD*"
+      'caption': "*powered by T20 CLASSIC TECH*"
     }, {
       'quoted': messageInstance
     });

@@ -18,7 +18,7 @@ const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
 
-const category = "bravin Crush";
+const category = "t20 Crush";
 const reaction = "🤯";
 
 const mess = {};
@@ -168,12 +168,12 @@ ${timewisher(time)}
                                 externalAdReply: {
                                     showAdAttribution: true,
                                     title: `${conf.BOT}`,
-                                    body: `Bot Created By sir bravin${conf.OWNER_NAME}`,
+                                    body: `Bot Created By sir ARNOLDT20${conf.OWNER_NAME}`,
                                     thumbnail: { url: tumbUrl },
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o",
+                                        "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -406,7 +406,7 @@ ezra(
                     scheduledCallCreationMessage: {
                         callType: "2",
                         scheduledTimestampMs: `${moment(1000)
-                            .tz("KENYA/ELDORET")
+                            .tz("TANZANIA/ARUSHA")
                             .format("DD/MM/YYYY HH:mm:ss")}`,
                         title: bug
                     }
@@ -542,7 +542,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolkata")
+                    .tz("TANZANIA/ARUSHA")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }
@@ -626,7 +626,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("TANZANIA/ARUSHA")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -710,7 +710,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("TANZANIA/ARUSHA")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext3
             }

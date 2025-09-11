@@ -252,7 +252,7 @@ ezra({ nomCom: "words", categorie: "Conversion", reaction: "😂" }, async (orig
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'JEEPERS CREEPER-XMD',
+      author: 'T20 CLASSIC-',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",

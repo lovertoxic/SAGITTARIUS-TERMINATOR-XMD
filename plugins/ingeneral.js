@@ -75,7 +75,7 @@ ezra({
     
     const data = response.data;
     const messageText = `
-📖 ☢️terminator☢️ HOLY BIBLE 📖
+📖 ☢️乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD☢️ HOLY BIBLE 📖
 
 ⁠ *_WE'RE READING:_* ${data.reference}
 

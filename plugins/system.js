@@ -28,7 +28,7 @@ async function loading(dest, zk) {
     "🟥🟥🟦🟦🟦🟦🟥🟥꧁60%꧂",
     "🟥🟥🟥🟥🟦🟦🟦🟦꧁80%꧂",
     "🟦🟦🟥🟥🟥🟥🟦🟦꧁100%꧂",
-    "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 𝕤𝕦𝕡𝕖𝕣 𝕗𝕒𝕤𝕥 𝕤𝕡𝕖𝕖𝕕 ping JEEPERS CREEPERS-XMD ⚡⚡*"
+    "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 𝕤𝕦𝕡𝕖𝕣 𝕗𝕒𝕤𝕥 𝕤𝕡𝕖𝕖𝕕 ping 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ⚡⚡*"
   ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
@@ -81,7 +81,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -137,7 +137,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -403,7 +403,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincy owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD 🤦*");
   }
 
   // Ensure Heroku app name and API key are set

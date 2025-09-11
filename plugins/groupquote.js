@@ -13,13 +13,13 @@ ezra({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions) 
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*JEEPERS CREEPER-XMD-MdQuotes*
+          repondre(`*乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-MdQuotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *frediezra*`);
+Powered by *T20CLASSIC*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,13 +31,13 @@ Powered by *frediezra*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`JEEPERS CREEPER
+          repondre(`乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *JEEPERS CREEPER-XMD*`);
+Powered by *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

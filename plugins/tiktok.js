@@ -27,7 +27,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `terminator PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD PLANET TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {

@@ -29,7 +29,7 @@ ezra({
     const { respond, prefix, nomAuteurMessage } = context;
     const commands = require(__dirname + "/../fredi/ezra").cm;
 
-    let menu = 'JEEPERS CREEPER-XMD ʟɪsᴛ\n\n';
+    let menu = '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ʟɪsᴛ\n\n';
     let ezraList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
@@ -59,10 +59,10 @@ ezra({
         text: menu,
         contextInfo: {
             externalAdReply: {
-                title: "JEEPERS CREEPER-XMD",
-                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 toxic lover",
+                title: "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD",
+                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 T20 CLASSIC",
                 thumbnailUrl: "https://files.catbox.moe/dyii8i.jpg",
-                sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                sourceUrl: "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                 mediaType: 1,
                 renderLargerThumbnail: true
             }

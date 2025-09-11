@@ -18,9 +18,9 @@ ezra({ nomCom: "getallmembers", categorie: 'Group', reaction: "📣" }, async (d
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
   let tag = `========================\n  
-        🌟 *JEEPERS CREEPER-XMD GROUP MEMBERS GIDS* 🌟
+        🌟 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD GROUP MEMBERS GIDS* 🌟
 ========================\n
-> regards TOXIC LOVER®\n\n`;
+> regards T20 CLASSIC®\n\n`;
 
   const emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$', '😟', '🥵', '🐅'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
@@ -57,7 +57,7 @@ ezra({ nomCom: "tagadmin", categorie: 'Group', reaction: "📣" }, async (dest, 
   let adminsGroupe = membresGroupe.filter(membre => membre.isAdmin);
 
   let tag = `========================\n  
-        🌟 *JEEPERS CREEPER-XMD* 🌟
+        🌟 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 

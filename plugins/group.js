@@ -61,10 +61,10 @@ ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, as
   let mess = Array.isArray(arg) && arg.length ? arg.join(' ') : 'No message provided';
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
-  let tag = `☢️ JEEPERS CREEPER-XMD☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
+  let tag = `☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
-> regards jeeper creepers xmd ®\n\n`;
+> regards 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ®\n\n`;
 
   const emoji = ['💡', '☢️', '🗡️', '🖌️', '🪫', '🔋', '⚙️', '🕶️', '🌡️', '✏️', '📌', '©️', '$','®️','™️','⚔️','🔏'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
@@ -107,7 +107,7 @@ ezra({ nomCom: "tagall", categorie: 'jeepers-Group', reaction: "📯" }, async (
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
-        🌟 *JEEPERS CREEPER-XMD TAGS* 🌟
+        🌟 *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD TAGS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -149,7 +149,7 @@ ezra({ nomCom: "link", categorie: 'jeepers-Group', reaction: "🚜" }, async (de
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ JEEPERS CREEPER-XMD ☢️`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️`
   repondre(mess)
 
 
@@ -218,7 +218,7 @@ ezra({ nomCom: "promote", categorie: 'jeepers-Group', reaction: "💐" }, async 
 })
 
 // COMMAND TO DEMOTE ADM
-ezra({ nomCom: "demote", categorie: 'jeepers-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "demote", categorie: 'TERMINATOR-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -282,7 +282,7 @@ ezra({ nomCom: "demote", categorie: 'jeepers-Group', reaction: "👨🏿‍💼"
 
 
 // COMMAND TO REMOVE MEMBERS 
-ezra({ nomCom: "remove", categorie: 'jeepers-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "remove", categorie: 'TERMINATOR-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -327,7 +327,7 @@ ezra({ nomCom: "remove", categorie: 'jeepers-Group', reaction: "😱" }, async (
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/mr-X-force/LUCKY-MD-XFORCE/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'JEEPERS CREEPER-XMD', // The pack name
+                pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -417,7 +417,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `☢️ JEEPERS CREEPER-XMD ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `☢️ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 
@@ -736,7 +736,7 @@ ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -844,7 +844,7 @@ ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},asy
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'jeepers creeper-xmd',
+          pack: '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -1001,7 +1001,7 @@ const cron = require(`../luckydatabase/cron`) ;
 
 ezra({
       nomCom : 'automute',
-      categorie : 'jeepers creeper-Group'
+      categorie : '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-Group'
   } , async (dest,zk,commandeOptions) => {
 
       const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -1073,7 +1073,7 @@ ezra({
 
   ezra({
     nomCom : 'autounmute',
-    categorie : 'jeepers creeper-Group'
+    categorie : '乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD-Group'
 } , async (dest,zk,commandeOptions) => {
 
     const {arg , repondre , verifAdmin } = commandeOptions ;

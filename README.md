@@ -17,7 +17,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹sir+bravin:jeepers+creeper+xmd+bot❣️❣️❣️" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹sir+T20classic:the+TERMINATOR+xmd+bot❣️❣️❣️" alt="Typing Animation">
 
 </h1>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=pair+site" alt="Typing SVG" /></a>
@@ -39,7 +39,7 @@
   <img src="https://github.com/black-spider436/jeepers-creeper-xmd/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=JEEPERS+CREEPER+XMD;DEPLOYMENT+SIGHT"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=THE+TERMINATOR+XMD;DEPLOYMENT+SIGHT"alt="Animated
 
 <div align="center">
   <table>
@@ -63,7 +63,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=JEEPERS+CREEPER-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=THE+TERMINATOR-XMD;BOT+FEATURES;ANTIDELETE;ANTIVIEWONCE;ANTILINK;ALL+PLATFORM+DL;AND+ETC:AT+2025"alt="Animated
 
 <div align="center">
   <img src="https://github.com/black-spider436/jeepers-creeper-xmd  /blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
@@ -84,7 +84,7 @@ description of sir bravin
 # 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o">
+  <a href="https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
@@ -93,9 +93,9 @@ description of sir bravin
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ##
-- *jeeper creeper xmd is not made by WhatsApp Inc. Sometimes or misusing the bot might ban your WhatsApp account!*
+- *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD is not made by WhatsApp Inc. Sometimes or misusing the bot might ban your WhatsApp account!*
 - *In that case, I'm not responsible for banning your account.*
-- *sir bravin have no any access with whatapp official so if you account gets ban i will be you yourself  led to your account ban.*
+- *sir ARNOLDT20 have no any access with whatapp official so if you account gets ban i will be you yourself  led to your account ban.*
   
   #### `TOTAL PROFILE VIEWS 🧚```                     
    

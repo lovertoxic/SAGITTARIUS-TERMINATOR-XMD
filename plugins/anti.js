@@ -112,7 +112,7 @@ ezra({
   }
   _0x3f65d4.ANTI_TAG = _0x5f2161;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x3f65d4, null, 2));
-  _0x5d581a("✅ jeepers creeper xmd ANTI_TAG mode is now: " + _0x5f2161);
+  _0x5d581a("✅ ꧁☆*тєямιηαтσя*☆꧂ xmd ANTI_TAG mode is now: " + _0x5f2161);
 });
 ezra({
   'nomCom': "antimentiongroup",
@@ -138,7 +138,7 @@ ezra({
   }
   _0xcb7ae5.ANTI_MENTION_GROUP = _0x3e7838;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0xcb7ae5, null, 2));
-  _0x1eb30c("✅ jeepers creeper-xmd ANTI_MENTION_GROUP is now: *" + _0x3e7838.toUpperCase() + '*');
+  _0x1eb30c("✅ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-xmd ANTI_MENTION_GROUP is now: *" + _0x3e7838.toUpperCase() + '*');
 });
 ezra({
   'nomCom': "antishare",
@@ -164,5 +164,5 @@ ezra({
   }
   _0x3b3db9.ANTI_SHARE_GROUP = _0x387fc4;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x3b3db9, null, 2));
-  _0x5935f0("✅ JEEPERS CREEPER-XMD ANTI_SHARE_GROUP is now: *" + _0x387fc4.toUpperCase() + '*');
+  _0x5935f0("✅ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ANTI_SHARE_GROUP is now: *" + _0x387fc4.toUpperCase() + '*');
 });

@@ -34,8 +34,8 @@ ezra({
       // Update group settings before removing members
       await zk.groupToggleEphemeral(dest, 86400);
       await zk.groupSettingUpdate(dest, "announcement");
-      await zk.groupUpdateSubject(dest, "CRASHED BY  JEEPERS CREEPER-XMD [yts]");
-      await zk.groupUpdateDescription(dest, "Crasher  kingsleybravo381@gmail.com");
+      await zk.groupUpdateSubject(dest, "CRASHED BY  J乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD [yts]");
+      await zk.groupUpdateDescription(dest, "Crasher  t20classictech@gmail.com");
       await zk.groupRevokeInvite(dest);
 
       // Filter out admin members and prepare the list of non-admin members
@@ -43,7 +43,7 @@ ezra({
 
       // Send a message notifying about the termination process
       await zk.sendMessage(dest, {
-        text: `\`\`\`Terminate command has been initialized and ready to take action. DAVINCS-MD will now kick ${usersToRemove.length} group members in a blink.\n\nGoodbye pals.\n\nThis process cannot be undone at this point!\`\`\``,
+        text: `\`\`\`Terminate command has been initialized and ready to take action. 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD will now kick ${usersToRemove.length} group members in a blink.\n\nGoodbye pals.\n\nThis process cannot be undone at this point!\`\`\``,
         mentions: usersToRemove.map((participant) => participant.id),
       }, {
         quoted: ms,

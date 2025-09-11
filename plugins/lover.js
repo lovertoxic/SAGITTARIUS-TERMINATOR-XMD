@@ -34,19 +34,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-━━━━❍ *JEEPERS CREEPER-XMD TECH INFO* ❍━━━━
+━━━━❍ *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD TECH INFO* ❍━━━━
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
 │
-│  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g. https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
+│  _*Support channel by follow*_ ; https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d.  https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d
 │  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/EQdgnmlMEuhGR9jF9nTpnE
-│  _*WhatsApp Contact As*_ ;https://wa.link/3rc9x7
+│  _*WhatsApp Contact As*_ ;https://wa.me/255768418867
 │  _*WhatsApp Bot Fork And Star*_ ;https://api.github.com/toxiclover-tech/TOXIC-LOVER-MD
 │  _*Telegram Channel*_ ;https://t.me/toxiclover12
 │  _*Telegram Bot*_ ;https://t.me/toxiclover12
-│  _*Telegram Contact As*_;https://t.me/toxiclover12
-│  _*Instagram*_ ;https://www.instagram.com/bravin126?igsh=MWJvZzBnN3RsYTRsag==
-│  _*Facebook*_ ;https://www.facebook.com/bravin126
-│  _*Follow My Github For About Info*_ ;https://github.com/toxiclover-tech
+│  _*Telegram Contact As*_;https://t.me/255627417402
+│  _*Instagram*_ ;https://www.instagram.com/official_arnold.1/?utm_source=qr$nametag
+│  _*Facebook*_ ;https://www.facebook.com/arnold tarimo
+│  _*Follow My Github For About Info*_ ;https://github.com/ARNOLDT20
 │
 ╰──━━━━━━━━━━━━━━━━━━━❍ 
 ╭──━━━━━━━━━━━━━━━──➳❍ 
@@ -62,7 +62,7 @@ let menuMsg = `
 
    ╭──━━━━━━━━━━━━❖
 ╭──━━━➳⊷•∞•➻━━━───❂
-║ jeeper creepers_xmd
+║ 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD_xmd
 ╰──━━━➳⊷•∞•➻━━━───❂
    ╰──━━━━━━━━━━━━❖
 
@@ -86,10 +86,10 @@ let menuMsg = `
 ┃⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣴⣿⣿⣿⠗⠄⠄⣿
 ┃⠈⠻⣿⣿⣿⣿⣿⣿⠿⠛⣉⣤⣾⣿⣿⣿⣿⣇⠠⠺⣷⣿
 ┃⣦⣄⣈⣉⣉⣉⣡⣤⣶⣿⣿⣿⣿⣿⣿⣿⠉⠁⣀⣼⣿⣿
-│        *JEEPERS CREEPER-XMD*
+│        *乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD*
 ╰─━━━━✣•∞•✣━━━━──❍ 
 
-> © JEEPERS CREEPER-XMD projects
+> © 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD projects
 
  `;
 

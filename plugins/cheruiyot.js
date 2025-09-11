@@ -82,8 +82,8 @@ ezra({
       'mimetype': "audio/mpeg3",
       'contextInfo': {
         'externalAdReply': {
-          'title': _0x41136f.title || "jeepers creeper-xmd Audio Download",
-          'body': "Powered by sir bravin ai site",
+          'title': _0x41136f.title || "TERMINATOR-xmd Audio Download",
+          'body': "Powered by sir ArnoldT20 ai site",
           'mediaType': 0x1,
           'sourceUrl': conf.GURL || _0x1411e7,
           'thumbnailUrl': _0x41136f.thumbnail || "https://i.ytimg.com/vi/2WmBa1CviYE/hqdefault.jpg",
@@ -99,7 +99,7 @@ ezra({
       'contextInfo': {
         'externalAdReply': {
           'title': _0x41136f.title || "Audio Documents Download",
-          'body': "Document version - Powered by sir bravin Ai site",
+          'body': "Document version - Powered by sir ArnoldT20 Ai site",
           'mediaType': 0x1,
           'sourceUrl': conf.GURL || _0x1411e7,
           'thumbnailUrl': _0x41136f.thumbnail || "https://i.ytimg.com/vi/2WmBa1CviYE/hqdefault.jpg",
@@ -195,8 +195,8 @@ ezra({
       'mimetype': "video/mpeg",
       'contextInfo': {
         'externalAdReply': {
-          'title': _0x5a045f.title || "sir bravin Video Download",
-          'body': "Powered by sir bravin ai site",
+          'title': _0x5a045f.title || "sir ARNOLDT20 Video Download",
+          'body': "Powered by sir ArnoldT20 ai site",
           'mediaType': 0x1,
           'sourceUrl': conf.GURL || _0x186849,
           'thumbnailUrl': _0x5a045f.thumbnail || "https://i.ytimg.com/vi/2WmBa1CviYE/hqdefault.jpg",
@@ -211,8 +211,8 @@ ezra({
       'fileName': _0x5a045f.title.replace(/[^\w\s]/gi, '') + ".mp4" || "audio.mp4",
       'contextInfo': {
         'externalAdReply': {
-          'title': _0x5a045f.title || "jeepers creeper xmd Documents Download",
-          'body': "Document version - Powered by sir bravin Ai site",
+          'title': _0x5a045f.title || "TERMINATOR xmd Documents Download",
+          'body': "Document version - Powered by ArnoldT20 Ai site",
           'mediaType': 0x1,
           'sourceUrl': conf.GURL || _0x186849,
           'thumbnailUrl': _0x5a045f.thumbnail || "https://i.ytimg.com/vi/2WmBa1CviYE/hqdefault.jpg",

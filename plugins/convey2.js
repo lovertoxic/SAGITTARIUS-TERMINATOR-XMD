@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"DAVINCS-MD" ,
+      pack:"TERMINATOR-MD" ,
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"JEEPERS CREEPER-XMD", // pack stick
+      pack:"TERMINATOR-XMD", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -252,7 +252,7 @@ ezra({ nomCom: "fwords", categorie: "Conversion", reaction: "😂" }, async (ori
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'JEEPERS CREEPER-XMD',
+      author: 'T20 CLASSIC',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
