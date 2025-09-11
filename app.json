@@ -1,8 +1,8 @@
 {
 
-  "name": "✧jeeper creeper xmd✧ MULT DEVICE BOT",
+  "name": "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD MULT DEVICE BOT",
 
-  "description": "jeepers creeper xmd Whatsapp device bot made by sir bravin  enable a user to use whatsapp with more powerful features..",
+  "description": "jeepers creeper xmd Whatsapp device bot made by T20CLASSIC  enable a user to use whatsapp with more powerful features..",
 
   "keywords": [
 
@@ -18,7 +18,7 @@
 
   "logo": "https://files.catbox.moe/sigghy.jpg",
 
-  "repository": "https://github.com/sir-bravin/sir-bravin",
+  "repository": "https://github.com/ARNOLDT20",
 
   "succes_url": "/",
 
@@ -124,7 +124,7 @@
 
       "description": "type your genuine status message",
 
-      "value": "Your status have been viewed by JEEPERS CREEPERS-XMD.",
+      "value": "Your status have been viewed by 乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD.",
 
       "required": false
 
@@ -154,7 +154,7 @@
 
       "description": "you must name your bot huh!!!!!!",
 
-      "value": "✧JEEPERS CREEPER XMD✧",
+      "value": "✧乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD✧",
 
       "required": false 
 
@@ -204,7 +204,7 @@
 
       "description": "don't you have a name bro.Insert your name here!!",
 
-      "value": "JEEPERS CREEPER XMD ⚡",
+      "value": "乂✰ȶɛʀʍɨռǟȶօʀ✰乂-XMD ⚡",
 
       "required": false
 
@@ -232,9 +232,9 @@
 
     "NUMERO_OWNER": {
 
-      "description": "Your phone number (exclude '+' and area code, e.g., '25471234567898')",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255768418867')",
 
-      "value": "25476******",
+      "value": "255687******",
 
       "required": false
 
