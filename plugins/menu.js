@@ -230,7 +230,7 @@ ezra({
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 JEEPERS CREEPER-XMD 🏹*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 Terminator 🏹*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
@@ -265,12 +265,12 @@ ezra({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363366284524544@newsletter",
-                    newsletterName: "JEEPERS CREEPER-XMD",
+                    newsletterName: "Terminator",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "🏹 JEEPERS CREEPER-XMD 🏹",
+                    title: "🏹  Terminator  🏹",
                     body: "🔑🗝️ Command List",
                     thumbnailUrl: "https://files.catbox.moe/cu752j.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
